@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_large">
+
+    <com.zslide.widget.AuthButton
+        android:id="@+id/kakaoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:src="@drawable/ic_ktalk"
+        android:text="@string/label.auth.kakao"
+        app:authType="kakao"/>
+
+    <com.zslide.widget.AuthButton
+        android:id="@+id/naverLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:src="@drawable/ic_naver"
+        android:text="@string/label.auth.naver"
+        app:authType="naver"/>
+
+    <com.zslide.widget.AuthButton
+        android:id="@+id/emailLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:src="@drawable/ic_mail"
+        android:text="@string/label.auth.email"
+        app:authType="email"/>
+</LinearLayout>

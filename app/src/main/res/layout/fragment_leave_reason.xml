@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="27dp"
+            android:layout_marginTop="27dp"
+            android:gravity="center"
+            android:text="줌마슬라이드를 이용하시면서 어떤 점이 불편하셨나요?\n\n(중복 선택 가능합니다.)"
+            android:textSize="@dimen/font_micro"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_c"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/spacing_huge"
+            android:paddingEnd="@dimen/spacing_smaller"
+            android:paddingLeft="@dimen/spacing_smaller"
+            android:paddingRight="@dimen/spacing_smaller"
+            android:paddingStart="@dimen/spacing_smaller"
+            android:paddingTop="@dimen/spacing_large">
+
+            <CheckBox
+                android:id="@+id/reason1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/spacing_smaller"
+                android:paddingLeft="@dimen/spacing_smaller"
+                android:paddingRight="@dimen/spacing_smaller"
+                android:paddingStart="@dimen/spacing_smaller"
+                android:text="줌머니 모으기"/>
+
+            <CheckBox
+                android:id="@+id/reason2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:paddingEnd="@dimen/spacing_smaller"
+                android:paddingLeft="@dimen/spacing_smaller"
+                android:paddingRight="@dimen/spacing_smaller"
+                android:paddingStart="@dimen/spacing_smaller"
+                android:text="줌마가게 이용하기"/>
+
+            <CheckBox
+                android:id="@+id/reason3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:paddingEnd="@dimen/spacing_smaller"
+                android:paddingLeft="@dimen/spacing_smaller"
+                android:paddingRight="@dimen/spacing_smaller"
+                android:paddingStart="@dimen/spacing_smaller"
+                android:text="줌마쇼핑 이용하기"/>
+
+            <CheckBox
+                android:id="@+id/reason4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:paddingEnd="@dimen/spacing_smaller"
+                android:paddingLeft="@dimen/spacing_smaller"
+                android:paddingRight="@dimen/spacing_smaller"
+                android:paddingStart="@dimen/spacing_smaller"
+                android:text="기타"/>
+
+            <EditText
+                android:id="@+id/reason4Content"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginEnd="@dimen/spacing_smaller"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="@dimen/spacing_smaller"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="@dimen/spacing_smaller"
+                android:background="@drawable/bg_gray_a_border"
+                android:gravity="top"
+                android:hint="불편했던 점이나 개선되었으면 하는 부분을\n자유롭게 작성해주세요."
+                android:padding="@dimen/spacing_normal"
+                android:textSize="@dimen/font_micro"/>
+
+            <Button
+                android:id="@+id/complete"
+                style="@style/AppTheme.Widget.Button.Outline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_smaller"
+                android:layout_marginLeft="@dimen/spacing_smaller"
+                android:layout_marginRight="@dimen/spacing_smaller"
+                android:layout_marginStart="@dimen/spacing_smaller"
+                android:layout_marginTop="@dimen/spacing_huge"
+                android:text="탈퇴 신청 완료"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_top_card"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_bullet_blue"
+                android:drawablePadding="@dimen/spacing_smaller"
+                android:text="아래에서 신청하실 카드사를 선택하세요"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_smaller"
+                android:drawableLeft="@drawable/ic_bullet_blue"
+                android:drawablePadding="@dimen/spacing_smaller"
+                android:text="카드사별로 다양한 혜택이 있습니다."/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/samsung"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginEnd="@dimen/spacing_huge"
+            android:layout_marginLeft="@dimen/spacing_huge"
+            android:layout_marginRight="@dimen/spacing_huge"
+            android:layout_marginStart="@dimen/spacing_huge"
+            android:background="@drawable/btn_gray_7_border">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_btn_cardevent_samsung"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/sh"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginEnd="@dimen/spacing_huge"
+            android:layout_marginLeft="@dimen/spacing_huge"
+            android:layout_marginRight="@dimen/spacing_huge"
+            android:layout_marginStart="@dimen/spacing_huge"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/btn_gray_7_border">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_btn_cardevent_sh"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/kb"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginEnd="@dimen/spacing_huge"
+            android:layout_marginLeft="@dimen/spacing_huge"
+            android:layout_marginRight="@dimen/spacing_huge"
+            android:layout_marginStart="@dimen/spacing_huge"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:background="@drawable/btn_gray_7_border">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_btn_cardevent_kb"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

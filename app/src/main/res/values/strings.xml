@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="base_channel_name">base_channel</string>
+    <string name="base_channel_description">줌마슬라이드 알림 체널</string>
+    <string name="base_channel_id">base_channel</string>
+
+    <string name="app_name">줌마슬라이드</string>
+
+    <string name="action.disable">비활성</string>
+
+    <string name="action.enable">활성</string>
+
+    <string name="action.left">왼쪽</string>
+
+    <!-- Begin Action -->
+    <string name="action.menu.cart">@string/label.cart</string>
+
+    <string name="action.menu.like.modify">편집</string>
+
+    <string name="action.menu.notification">알림</string>
+
+    <string name="action.menu.purchase_history">@string/label.purchase.history</string>
+
+    <string name="action.participate">참여하지 않은 광고</string>
+
+    <string name="action.participate.already">참여한 광고</string>
+
+    <string name="action.right">오른쪽</string>
+
+    <string name="a_name">줌마슬라이드</string>
+
+    <string name="appbar_fling_behavior">com.apartslide.widget.FlingBehavior</string>
+
+    <string name="deduction_message">관리비로 차감됩니다.\n%s월에 받는 관리비 청구서에서 확인하세요.</string>
+    <string name="deduction_price">차감 금액</string>
+    <string name="delivery">배달</string>
+    <string name="deposit_date">입금 날짜: %s</string>
+
+    <string name="description.image.thumbnail">썸네일 이미지</string>
+
+    <string name="empty_name">이름 없음</string>
+    <string name="empty_nickname">별명 없음</string>
+
+    <string name="expected_deduction_price">차감 예정 금액</string>
+    <string name="expected_payments_price">지급 예정 금액</string>
+
+    <string name="find_my_location">내 위치 찾는 중</string>
+    <string name="empty_location">위치 정보가 없습니다.</string>
+
+    <string name="format.apartment.agree.request">%d명 요청 중</string>
+
+    <string name="format.apartment.timestamp">%1$s, %2$d명이 신청 중</string>
+
+    <string name="format.day">%d일</string>
+    <string name="format.day_of_week">%s요일</string>
+
+    <string name="format.hours_minutes_seconds">%1$d시간 %2$d분 %3$d초</string>
+
+    <string name="format.mail.app_error.contents">통신사: %1$s\n모델명: %2$s\n운영체제 버전: %3$d\n어플리케이션 버전:
+        %4$s(%5$d)\n연락처: %6$s\n\n여기에 문의 내용을 적어주세요.
+    </string>
+
+    <string name="format.meters">%dm</string>
+
+    <string name="format.minutes">%s분</string>
+    <string name="format.minutes_seconds">%1$d분 %2$s초</string>
+
+    <string name="format.month">%d월</string>
+
+    <string name="format.ocb">%,d P</string>
+
+    <string name="format.ocb.fees">수수료(%.1f%%)</string>
+
+    <string name="format.persons">%1$,d명</string>
+
+    <string name="format.price">%1$,d원</string>
+
+    <string name="format.year">%d년</string>
+
+    <string name="format.year.short">’%d년</string>
+
+    <string name="format_10k">%d만</string>
+    <string name="format_10k_f">%.1f만</string>
+    <string name="format_bank_account">%1$s %2$s (%3$s)</string>
+    <string name="format_date">%1$d년 %2$d월 %3$d일</string>
+    <string name="format_date2">%1$d년 %2$d월</string>
+    <string name="format_hundred">%d백</string>
+    <string name="format_hundred_f">%.1f백</string>
+    <string name="format_k">%d천</string>
+    <string name="format_k_f">%.1f천</string>
+    <string name="format_number">%1$,d</string>
+    <string name="format_point">%1$,d줌</string>
+    <string name="format_ten">%d십</string>
+    <string name="format_ten_f">%.1f십</string>
+    <string name="format_total_zmoney">누적: %1$,d줌</string>
+    <string name="format_zmoney_dashboard_date_daily">yyyy년 M월 d일</string>
+    <string name="format_zmoney_dashboard_date_monthly">yyyy년 M월</string>
+
+    <string name="hint.family.name">가족 이름(2자 이상)</string>
+
+    <string name="hint.name">실명(2자 이상)</string>
+
+    <string name="hint.nickname">별명(2자 이상)</string>
+
+    <string name="hint.search">@string/search</string>
+
+    <string name="hint.suggestion.content">제안 내용을 입력해주세요.</string>
+
+    <string name="hint.suggestion.title">제목을 입력해주세요.</string>
+
+    <string name="invite_family_message">가입시 추천인 코드:[%2$s] 입력하고\n%1$s
+    </string>
+    <string name="invite_family_message_with_link">%1$s님이 [%2$s] 가족으로 초대합니다. 추천인코드 %4$s를 입력하세요. %3$s
+    </string>
+    <string name="invite_friend_message">가입시 추천인 코드:[%2$s] 입력하고\n%1$s
+    </string>
+    <string name="invite_friend_message_with_link">가입시 추천인 코드:[%2$s] 입력하고\n%1$s\n링크:
+        https://bit.ly/Zummaslide
+    </string>
+
+    <string name="key.admob.banner.home">ca-app-pub-8980900389635455/9798797128</string>
+
+    <string name="key.admob.banner.mission">ca-app-pub-8980900389635455/3287379922</string>
+
+    <string name="key.admob.banner.mypage">ca-app-pub-8980900389635455/8228087129</string>
+
+    <string name="key.admob.banner.zummacast">ca-app-pub-8980900389635455/7230215125</string>
+
+    <string name="key.facebook">173622276376068</string>
+
+    <string name="label.account">계정</string>
+
+    <string name="label.account.my">내 계정</string>
+
+    <string name="label.account.number">계좌번호</string>
+
+    <string name="label.account.owner">예금주</string>
+
+    <string name="label.account_setting.family_info">우리집 별명 / 주소</string>
+    <string name="label.account_setting.level_benefit">@string/label.level_benefit</string>
+    <string name="label.account_setting.nickname">별명</string>
+    <string name="label.account_setting.reset_password">비밀번호 변경</string>
+    <string name="label.account_setting.user_info">개인 정보</string>
+
+    <string name="label.action.share">공유하기</string>
+
+    <string name="label.ad.address">주소: %s</string>
+
+    <string name="label.ad.business_hour">평일: %1$s ~ %2$s</string>
+
+    <string name="label.ad.direction">오시는 길: %s</string>
+
+    <string name="label.ad.holiday_business_hour">주말: %1$s ~ %2$s</string>
+
+    <string name="label.ad_help">@string/label.help.ad_partner</string>
+    <string name="label.ad_help.contact">support@mobitle.com</string>
+    <string name="label.ad_help.help">광고 문의하기</string>
+
+    <string name="label.agree">동의</string>
+
+    <string name="label.agree.third">개인정보 제 3자 제공동의</string>
+
+    <string name="label.alert.auth">등록하기</string>
+
+    <string name="label.alert.family">등록하기</string>
+
+    <string name="label.all">전체</string>
+
+    <string name="label.apartment.agree.complete">협약 완료</string>
+
+    <string name="label.apartment.agree.wait">협약 대기 중</string>
+
+    <string name="label.apartment.complete.address">주소 완성하기</string>
+
+    <string name="label.apartment.name">아파트 이름</string>
+
+    <string name="label.apartment.registration">아파트 이름 제보하기</string>
+
+    <string name="label.apartment.registration.empty">목록 중에 없어요. 새로 신청할래요.</string>
+
+    <string name="label.apartment.registration.request.complete">아파트 이름 제보 완료</string>
+
+    <string name="label.apartment.registration.retry">다시 등록하기</string>
+
+    <string name="label.apartment.registration.waiting">아파트\n등록 중…</string>
+
+    <string name="label.apply.easy">간편신청</string>
+
+    <string name="label.apply.normal">일반신청</string>
+
+    <string name="label.auth.email">이메일로 시작하기</string>
+
+    <string name="label.auth.kakao">카카오 아이디로 시작하기</string>
+
+    <string name="label.auth.naver">네이버 아이디로 시작하기</string>
+
+    <string name="label.auth.phone">휴대폰 번호로 시작하기</string>
+
+    <string name="label.bank.name">은행이름</string>
+
+    <string name="label.birth.day">@string/label.day</string>
+
+    <string name="label.birth.month">@string/label.month</string>
+
+    <string name="label.birth.year">태어난 해</string>
+
+    <string name="label.board.go">카카오톡 문의하기</string>
+
+    <string name="label.business.hour">영업시간</string>
+
+    <string name="label.business.hour.bold">
+        <b>영업시간</b>
+    </string>
+
+    <string name="label.business.name">상호</string>
+
+    <string name="label.call.now">바로 전화</string>
+
+    <string name="label.cancel">취소</string>
+
+    <string name="label.cancel.order">주문취소</string>
+
+    <string name="label.cancel2">취소하기</string>
+
+    <string name="label.cart">장바구니</string>
+
+    <string name="label.cart.shop">장바구니 담기</string>
+
+    <string name="label.cart.store_simple">담기</string>
+
+    <string name="label.cast.bookmark">줌마캐스트 보관함</string>
+
+    <string name="label.category">카테고리</string>
+
+    <string name="label.certification">인증하기</string>
+
+    <string name="label.certification.code">인증번호</string>
+
+    <string name="label.certification.do">실명인증 하기</string>
+
+    <string name="label.certification.name">실명인증</string>
+
+    <string name="label.certification.remain">유효 시간</string>
+
+    <string name="label.certification.request.code">인증하기</string>
+
+    <string name="label.certification.request.code.retry">인증번호 재요청</string>
+
+    <string name="label.certification.timeout">시간초과</string>
+
+    <string name="label.check.address">주소 확인</string>
+
+    <string name="label.check.benefit">혜택보기</string>
+
+    <string name="label.clipboard">내용 복사</string>
+
+    <string name="label.close">닫기</string>
+
+    <string name="label.close.always">다시 보지 않기</string>
+
+    <string name="label.collapse">접기</string>
+
+    <string name="label.colon"> : </string>
+
+    <string name="label.company_registration_number">사업자등록번호</string>
+
+    <string name="label.complete">완료</string>
+
+    <string name="label.complete.signup">가입완료</string>
+
+    <string name="label.complete.use">사용 완료</string>
+
+    <string name="label.confirm">확인</string>
+
+    <string name="label.confirm.new.password">새로운 비밀번호 확인</string>
+
+    <string name="label.confirm.password">비밀번호 확인</string>
+
+    <string name="label.contact.call">1670–9039</string>
+
+    <string name="label.contactus">문의하기</string>
+
+    <string name="label.coupon.remain">
+        <b>사용 가능 쿠폰</b>
+    </string>
+
+    <string name="label.coupon.used">
+        <b>사용 완료</b>
+    </string>
+
+    <!-- End Mypage -->
+    <!-- Begin Format -->
+    <string name="label.coupon_count">쿠폰 -장</string>
+
+    <string name="label.coupons">쿠폰함</string>
+
+    <string name="label.current_state">현황</string>
+
+    <string name="label.date">날짜</string>
+
+    <string name="label.day">일</string>
+
+    <string name="label.deduction">적립</string>
+
+    <string name="label.delete">삭제</string>
+
+    <string name="label.delivery">배달</string>
+
+    <string name="label.delivery.business_hour">배달시간</string>
+
+    <string name="label.delivery.coverage">배달지역</string>
+
+    <string name="label.delivery.coverage.bold">
+        <b>배달지역</b>
+    </string>
+
+    <string name="label.delivery.guide">배송안내</string>
+
+    <string name="label.delivery.prepare">배송준비중</string>
+
+    <string name="label.delivery.price">배송비</string>
+
+    <string name="label.delivery.tracking">배송조회</string>
+
+    <string name="label.deposit.limit">입금기한: %s</string>
+
+    <string name="label.deposit.wait">입금대기중</string>
+
+    <string name="label.description">설명</string>
+
+    <string name="label.detail">상세정보</string>
+
+    <string name="label.dongs">동/읍/면</string>
+
+    <string name="label.drawer.address_complete">주소 완성</string>
+    <string name="label.drawer.address_input">주소 입력</string>
+
+    <string name="label.drawer.barcode.content">회원번호 :
+        <b>%s</b>
+    </string>
+
+    <string name="label.drawer.event">이벤트</string>
+
+    <string name="label.drawer.faq">자주 묻는 질문</string>
+
+    <string name="label.drawer.help">고객지원</string>
+
+    <string name="label.drawer.help.app">어플 오류 문의</string>
+
+    <string name="label.drawer.help.cooperate_ad">광고 제휴 문의</string>
+
+    <string name="label.drawer.help.zmoney">적립 문의</string>
+
+    <string name="label.drawer.help.zummastore">줌마가게 이용방법</string>
+
+    <string name="label.drawer.notice">공지사항</string>
+
+    <string name="label.drawer.setting.app">앱 설정</string>
+
+    <string name="label.drawer.setting.family">우리집 정보</string>
+
+    <string name="label.drawer.setting.user">내 정보</string>
+
+    <string name="label.drawer.update_profile">@string/label.update.profile</string>
+
+    <string name="label.drawer.zummamall.cart">줌마쇼핑 장바구니</string>
+
+    <string name="label.drawer.zummamall.history">줌마쇼핑 구매내역</string>
+
+    <string name="label.drawer.zummastore.history">줌마가게 적립내역</string>
+
+    <string name="label.drawer.zummastore.like.list">좋아요 목록</string>
+
+    <string name="label.email.address">이메일 주소</string>
+
+    <string name="label.empty.error.button">새로고침</string>
+
+    <string name="label.empty.error.message">다시 한 번 시도해보세요.</string>
+
+    <string name="label.empty.error.title">화면을 불러오지 못했어요.</string>
+
+    <string name="label.empty.shipping_address">배송지 정보가 없습니다.\n새로 입력해주세요.</string>
+
+    <string name="label.etc">기타</string>
+
+    <string name="label.event">이벤트</string>
+
+    <string name="label.event.at.apply">
+        <b>자동납부 신청하기</b>
+    </string>
+
+    <string name="label.event.at.apply.phone">
+        <b>전화로 신청하기</b>
+    </string>
+
+    <string name="label.event.at.apply.samsung">
+        <b>간편 신청하기</b>
+    </string>
+
+    <string name="label.event.at.apply.simple">
+        <b>간편 신청하기</b>
+    </string>
+
+    <string name="label.event.detail">
+        <b>이벤트 자세히 보기</b>
+    </string>
+
+    <string name="label.event.type.never">다시 보지 않기</string>
+
+    <string name="label.event.type.today">오늘 하루 보지 않기</string>
+
+    <string name="label.event.type.week">일주일간 보지 않기</string>
+
+    <string name="label.exit">닫기</string>
+
+    <string name="label.expand">열기</string>
+
+    <string name="label.facebook">페이스북</string>
+
+    <string name="label.failure.apartment.registration">아파트\n등록 실패</string>
+
+    <string name="label.family.block">구성원 차단</string>
+
+    <string name="label.family.change_family_leader">가족 대표 변경</string>
+    <string name="label.family.change_profile_image">가족 이미지 변경</string>
+
+    <string name="label.family.join">가족으로 등록하기</string>
+
+    <string name="label.family.members">가족 %d명</string>
+
+    <string name="label.family.modify_address">이사 가기</string>
+    <string name="label.family.modify_block">차단된 구성원 관리</string>
+
+    <string name="label.family.move.alone">혼자만 이사갑니다</string>
+
+    <string name="label.family.move.together">가족 모두 이사갑니다</string>
+
+    <string name="label.family.president.bracket">(가족 대표)</string>
+
+    <string name="label.family.president.no_space">가족대표</string>
+
+    <string name="label.family.search">우리집 찾기</string>
+
+    <string name="label.family.search.hint">가족의 휴대폰번호로 검색</string>
+
+    <string name="label.family.unblock">차단해제</string>
+
+    <string name="label.faq">자주 묻는 질문</string>
+
+    <string name="label.get.coupon">쿠폰 받기</string>
+
+    <string name="label.help">도움말</string>
+
+    <string name="label.help.ad_partner">광고 제휴 문의</string>
+
+    <string name="label.help.bug">어플 오류 문의</string>
+
+    <string name="label.help.house">주택 사용자 앱 이용 안내</string>
+
+    <string name="label.help.personal">1:1 문의</string>
+
+    <string name="label.help.personal.desc">적립 문의, 어플 오류 신고</string>
+
+    <string name="label.help.personal.kakao">카카오톡 1:1 문의</string>
+
+    <string name="label.help.saving">적립 문의</string>
+
+    <string name="label.help.usage">이용문의</string>
+
+    <string name="label.help.zummastore">줌마가게 이용방법</string>
+
+    <string name="label.holiday">주말</string>
+
+    <string name="label.home.event">진행중인 이벤트</string>
+
+    <string name="label.home.month">%d월 적립 줌머니</string>
+
+    <string name="label.homepage">홈페이지</string>
+
+    <string name="label.homepage.bold">
+        <b>홈페이지</b>
+    </string>
+
+    <string name="label.info.family">가족 정보</string>
+
+    <string name="label.info.me">내 정보</string>
+
+    <string name="label.info.version">버전 정보</string>
+
+    <string name="label.input.account">입금 계좌 입력</string>
+
+    <string name="label.input.address">주소 입력</string>
+
+    <string name="label.input.address.detail">상세 주소 입력</string>
+
+    <string name="label.input.new.password">새로운 비밀번호</string>
+
+    <string name="label.input.password">비밀번호</string>
+
+    <string name="label.input_mode.apartment">아파트 등록</string>
+    <string name="label.input_mode.house">주택 등록</string>
+
+    <string name="label.into.login">소셜 아이디 혹은 이메일 계정으로 로그인</string>
+
+    <string name="label.into.signup">처음 오셨나요? 가입하기</string>
+
+    <string name="label.invite.complete">초대 완료</string>
+
+    <string name="label.invite.count">초대에 응한 친구 수</string>
+
+    <string name="label.invite.family">가족 초대</string>
+
+    <string name="label.invite.friend">친구 초대</string>
+
+    <string name="label.invite.kakao.button">앱으로 이동</string>
+
+    <string name="label.kakao">카카오톡</string>
+
+    <string name="label.kakaostory">카카오 스토리</string>
+
+    <string name="label.kind">종류</string>
+
+    <string name="label.leave">회원탈퇴</string>
+
+    <string name="label.leave.agree1">
+        <b>잔여 줌머니, 쿠폰 처리</b>
+    </string>
+
+    <string name="label.leave.agree2">
+        <b>회원 탈퇴 시 게시물 관리</b>
+    </string>
+
+    <string name="label.leave.agree3">
+        <b>회원 탈퇴 후 재가입 규정</b>
+    </string>
+
+    <string name="label.level.benefit.all">모든<b>등급 혜택</b>\n한 눈에 보기
+    </string>
+
+    <string name="label.level.benefit.coupon1">줌머니 %,d줌 적립</string>
+
+    <string name="label.level.benefit.coupon2">줌마가게 %1$,d줌 쿠폰 x %2$d장</string>
+
+    <string name="label.level.benefit.coupon3">줌마쇼핑 %1$,d줌 쿠폰 x %2$d장</string>
+
+    <string name="label.level.benefit.detail">@string/label_show_detail</string>
+
+    <string name="label.level.benefit.level">내 등급</string>
+
+    <string name="label.level.name">%s님의 등급</string>
+
+    <string name="label.level_benefit">내 등급 혜택</string>
+
+    <string name="label.link.account">SNS 계정 연결하기</string>
+
+    <string name="label.link.account.email">이메일 계정</string>
+
+    <string name="label.link.account.kakao">카카오 계정</string>
+
+    <string name="label.link.account.naver">네이버 계정</string>
+
+    <string name="label.location.recent">최근 위치</string>
+
+    <string name="label.location.where">지금 이곳은</string>
+
+    <string name="label.login.with.kakao">카카오 계정</string>
+
+    <string name="label.login.with.naver">네이버 계정</string>
+
+    <string name="label.logout">로그아웃</string>
+
+    <string name="label.map">지도</string>
+
+    <string name="label.mark.question">\?</string>
+
+    <string name="label.market.detail">@string/label.detail</string>
+
+    <string name="label.market.review">상품평</string>
+    <string name="label.market.review_with_count">상품평 (%d)</string>
+
+    <string name="label.market.tag1">신상품</string>
+
+    <string name="label.market.tag2">무료배송</string>
+
+    <string name="label.market.tag3">추천상품</string>
+
+    <string name="label.market.tag4">인기상품</string>
+
+    <string name="label.market.warning">배송/교환/환불</string>
+
+    <string name="label.me">나</string>
+
+    <string name="label.meters.none">-m</string>
+
+    <string name="label.minutes.none">-분</string>
+
+    <string name="label.mission">바로 적립</string>
+
+    <string name="label.mission.complete">미션완료</string>
+
+    <string name="label.mission.howto">미션 설명</string>
+
+    <string name="label.mission.start">미션시작</string>
+
+    <string name="label.mobitle">(주)모비틀</string>
+
+    <string name="label.mobitle.address">서울특별시 서초구 방배동 485–3번지</string>
+
+    <string name="label.mobitle.homepage">www.mobitle.com</string>
+
+    <string name="label.mobitle.intro">회사소개</string>
+
+    <string name="label.mobitle.number1">214–88–71816</string>
+
+    <string name="label.mobitle.number2">2015–서울서초–1404</string>
+
+    <string name="label.mobitle.representation">이걸우, 박훈준</string>
+
+    <string name="label.modify">수정</string>
+    <string name="label.modify_nickname">별명 수정</string>
+    <string name="label.modify_president">대표 변경</string>
+
+    <string name="label.month">월</string>
+
+    <string name="label.more">더보기</string>
+
+    <string name="label.move_house">이사 가기(주소 변경 신청)</string>
+
+    <string name="label.mypage.cart">장바구니</string>
+
+    <string name="label.mypage.coupon">쿠폰</string>
+
+    <string name="label.mypage.cs">고객센터</string>
+
+    <string name="label.mypage.history">주문내역</string>
+
+    <string name="label.mypage.home">우리집 정보</string>
+
+    <string name="label.mypage.level">내 등급</string>
+
+    <string name="label.mypage.like">좋아요</string>
+
+    <string name="label.mypage.notice">공지사항</string>
+
+    <string name="label.mypage.reviews">내 리뷰</string>
+
+    <string name="label.mypage.settings">앱 설정</string>
+
+    <string name="label.mypage.zummacast">줌마캐스트\n보관함</string>
+
+    <string name="label.name">이름</string>
+
+    <string name="label.naver">네이버</string>
+
+    <string name="label.new_shipping">새로 입력</string>
+
+    <string name="label.next">다음</string>
+
+    <string name="label.nickname">별명</string>
+
+    <string name="label.notice">공지사항</string>
+
+    <string name="label.notice.short">공지</string>
+
+    <string name="label.notification">알림</string>
+
+    <string name="label.notification.apartment.agree">아파트 협약 알림</string>
+
+    <string name="label.notification.zmoney.expected">%s 예정 줌머니 알림</string>
+
+    <string name="label.order">주문하기</string>
+
+    <string name="label.order.title">1. 배송지 정보</string>
+
+    <string name="label.order.title2">2. 상품 정보</string>
+
+    <string name="label.order.title3">3. 쿠폰 선택</string>
+
+    <string name="label.order.title4">4. 결제 정보</string>
+
+    <string name="label.order.title5">5. 결제 방법</string>
+
+    <string name="label.password">비밀번호</string>
+
+    <string name="label.password.find">비밀번호 찾기</string>
+
+    <string name="label.payment">결제하기</string>
+
+    <string name="label.payment.account">무통장 입금</string>
+
+    <string name="label.payment.card">신용 카드</string>
+
+    <string name="label.payment.mobile">휴대폰 결제</string>
+
+    <string name="label.permission.location">위치</string>
+
+    <string name="label.permission.phone">전화</string>
+
+    <string name="label.phone">휴대폰</string>
+
+    <string name="label.prev">이전</string>
+
+    <string name="label.price">가격</string>
+
+    <string name="label.price.none">- 원</string>
+
+    <string name="label.privacy">개인 정보</string>
+
+    <string name="label.profile.modify">프로필 사진 변경</string>
+
+    <string name="label.profile.modify.select_album">앨범에서 선택</string>
+
+    <string name="label.profile.modify.take">사진 촬영</string>
+
+    <string name="label.profile.modify.use_default">기본 이미지로 변경</string>
+
+    <string name="label.purchase.history">구매내역</string>
+
+    <string name="label.recommend_code">추천인 코드</string>
+
+    <string name="label.recommender.hint">추천인 코드(선택 입력)</string>
+
+    <string name="label.recruiter">모집인 코드</string>
+
+    <string name="label.recruiter.optional">모집인 코드(선택 입력)</string>
+
+    <string name="label.redirect">이동</string>
+
+    <string name="label.refresh">새로고침</string>
+
+    <string name="label.registration">등록</string>
+
+    <string name="label.registration.address">주소 등록</string>
+
+    <string name="label.registration.apply">완료</string>
+
+    <string name="label.registration.bold">
+        <b>등록</b>
+    </string>
+
+    <string name="label.registration.coupon">쿠폰 등록</string>
+
+    <string name="label.registration.family">우리집 등록</string>
+
+    <string name="label.representation">대표</string>
+
+    <string name="label.request.apartment.agree">협약 요청</string>
+
+    <string name="label.request.apartment.agree.complete">협약 요청 중</string>
+
+    <string name="label.retry">재시도</string>
+
+    <string name="label.return">교환/환불/반품</string>
+
+    <string name="label.review">리뷰</string>
+
+    <string name="label.review.writer.boss">사장님</string>
+
+    <string name="label.save">저장</string>
+
+    <string name="label.saving">적립</string>
+
+    <string name="label.saving.ad">바로 적립</string>
+
+    <string name="label.saving.call">전화 적립</string>
+
+    <string name="label.saving.etc">기타 적립</string>
+
+    <string name="label.saving.market">줌마쇼핑 적립</string>
+
+    <string name="label.saving.recommend">친구추천 적립</string>
+
+    <string name="label.saving.slide">첫 화면 광고 참여 적립</string>
+
+    <string name="label.saving.zummastore">줌마가게 적립</string>
+
+    <string name="label.select">선택</string>
+
+    <string name="label.select.address">주소 선택</string>
+
+    <string name="label.servicecenter">고객센터</string>
+
+    <string name="label.setting.profile.birth">생일</string>
+
+    <string name="label.setting.profile.gender">@string/label.sex</string>
+
+    <string name="label.setting.profile.name">@string/label.name</string>
+
+    <string name="label.settings.account">계정 설정</string>
+
+    <string name="label.settings.push">알림 설정</string>
+    <string name="label.settings.push_enable">첫화면 적립 알림</string>
+
+    <string name="label.settings.slide_enable">첫화면 사용하기</string>
+
+    <string name="label.settings.support_customer">고객 지원</string>
+
+    <string name="label.sex">성별</string>
+
+    <string name="label.sex.man">남자</string>
+
+    <string name="label.sex.woman">여자</string>
+
+    <string name="label.share">공유</string>
+
+    <string name="label.share.shop.kakao.button">앱으로 이동</string>
+
+    <string name="label.shipping_addresses">배송지 목록</string>
+
+    <string name="label.shop.info">이용매장정보</string>
+
+    <string name="label.sido">시/도</string>
+
+    <string name="label.signup">회원가입</string>
+
+    <string name="label.sigungu">시/군/구</string>
+
+    <string name="label.sms">문자</string>
+
+    <string name="label.sortby">정렬기준</string>
+
+    <string name="label.success.apartment.registration">아파트\n등록 완료</string>
+
+    <string name="label.suggestion">제안하기</string>
+
+    <string name="label.suggestion.content">제안 내용</string>
+
+    <string name="label.suggestion.title">제목</string>
+
+    <string name="label.temp_apartment.success">약관 및 정책</string>
+
+    <string name="label.terms">약관 및 정책</string>
+
+    <string name="label.terms.location">위치기반서비스 이용약관</string>
+
+    <string name="label.terms.privacy">개인정보취급방침</string>
+
+    <string name="label.terms.use">이용약관</string>
+
+    <string name="label.throw">내보내기</string>
+
+    <string name="label.to_saving">적립받기</string>
+
+    <string name="label.top">맨위로</string>
+
+    <string name="label.undo">되돌리기</string>
+
+    <string name="label.unknown.business_hour">정보 없음</string>
+
+    <string name="label.update">업데이트</string>
+
+    <string name="label.update.password">비밀번호 수정</string>
+
+    <string name="label.update.profile">기본 정보 수정</string>
+
+    <string name="label.update.shipping_address">배송지수정</string>
+
+    <string name="label.update_complete.shipping_address">수정완료</string>
+
+    <string name="label.usable">사용 가능</string>
+
+    <string name="label.usage.call">배달주문</string>
+
+    <string name="label.usage.coupon">쿠폰 사용 방법</string>
+
+    <string name="label.usage.short.call">배달</string>
+
+    <string name="label.usage.short.visit">방문</string>
+
+    <string name="label.usage.visit">방문이용</string>
+
+    <string name="label.vendor_registration_number">통신판매업신고번호</string>
+
+    <string name="label.version.current">현재 버전</string>
+
+    <string name="label.version.new">최신 버전</string>
+
+    <string name="label.view.detail">자세히보기</string>
+
+    <string name="label.visit">방문</string>
+
+    <string name="label.waybil_number">운송장번호</string>
+
+    <string name="label.weekday">평일</string>
+
+    <string name="label.write">쓰기</string>
+
+    <string name="label.zmoney">줌머니</string>
+
+    <string name="label.zmoney.account">줌머니 입금 계좌</string>
+
+    <string name="label.zmoney.current">이번 달 줌머니</string>
+
+    <string name="label.zmoney.goto">줌머니 내역 가기</string>
+
+    <string name="label.zmoney.me">내가 모은 줌머니</string>
+
+    <string name="label.zmoney.save">모은 줌머니</string>
+
+    <string name="label.zmoney_family.certification.title">실명인증을 해주세요</string>
+
+    <string name="label.zummacast">줌마캐스트</string>
+
+    <string name="label.zummashopping">줌마쇼핑</string>
+
+    <string name="label.zummastore">줌마가게</string>
+
+    <string name="label.zummastore.info">가게정보</string>
+
+    <string name="label_address">주소</string>
+    <string name="label_call">전화 걸기</string>
+    <string name="label_contact">번호</string>
+    <string name="label_count">수량</string>
+    <string name="label_coupon">쿠폰</string>
+    <string name="label_delivery_store_all">배달가게 모든 매장</string>
+    <string name="label_expected_payments">이번 달 지급 예정</string>
+    <string name="label_expected_zmoney">지급 예정 금액</string>
+    <string name="label_family_info">우리집 정보</string>
+    <string name="label_family_setting">설정</string>
+    <string name="label_home">홈</string>
+    <string name="label_mypage">내 설정</string>
+    <string name="label_offerwall">바로 적립</string>
+    <string name="label_payments_account">입금 계좌</string>
+    <string name="label_payments_guide">지급 안내</string>
+    <string name="label_recent_payments">최근 지급</string>
+    <string name="label_registration_account">계좌 등록</string>
+    <string name="label_required_menu">%s (필수)</string>
+    <string name="label_selectable_menu">%s (선택)</string>
+    <string name="label_settings">내 설정</string>
+    <string name="label_show_detail">자세히 보기</string>
+    <string name="label_total_payments">총 지급</string>
+    <string name="label_unlike_disappear">ㅠㅠ 시무룩</string>
+    <string name="label_update_account">수정</string>
+    <string name="label_visit_store_all">방문가게 모든 매장</string>
+    <string name="label_zmoney_history_more">+ 지난 12개월 더보기</string>
+    <string name="label_zummashopping_all">줌마쇼핑 모든 상품</string>
+    <string name="label_zummastore_all">줌마가게 모든 매장</string>
+
+    <string name="location_find">위치 자동 찾기</string>
+    <string name="location_select">위치 직접 선택하기</string>
+
+    <string name="message.account_view.alert1">계좌정보는 가족대표가 수정할 수 있습니다.</string>
+    <string name="message.account_view.alert2">계좌정보가 정확하지 않은 경우 줌머니 입금이 실패할 수 있습니다. 꼭 정확히 입력해주세요.
+    </string>
+    <string name="message.account_view.alert3">기일이 지난 후에도 입금되지 않는 경우 카카오톡 1:1 문의를 통해 연락주세요.</string>
+    <string name="message.account_view.alert4">주택 거주시 줌머니 입금에 제한이 있습니다.</string>
+    <string name="message.account_view.empty">계좌가 등록되어있지 않습니다.\n줌머니를 입금받으시려면 계좌를 등록하셔야 합니다.\n계좌는
+        가족대표만 등록할 수 있습니다.
+    </string>
+
+    <string name="message.ad.call">%s에 전화를 거시겠습니까?</string>
+
+    <string name="message.ad.redirect_homepage">사이트로 이동하시겠습니까?</string>
+
+    <string name="message.ad_help.mail.content">다음 내용을 상세히 적어주시면 최대한 빠르게 피드백을
+        드리겠습니다.^^\n\n업체명:\n연락처:\n문의내용:
+    </string>
+    <string name="message.ad_help.mail.subject">광고 제휴 문의</string>
+    <string name="message.ad_help.text1">줌마슬라이드는 아파트 주민들의\n핸드폰 첫 화면에 지역 기반 광고를\n보여 주는 모바일 플랫폼입니다.
+    </string>
+    <string name="message.ad_help.text2">줌마 회원의 80%가 구매력이 높은\n30~50대 주부님이고,\n당신의 가게 주변 아파트 주민입니다.
+    </string>
+    <string name="message.ad_help.text3">일반 배너광고와 전단광고 대비\n100배 이상의 효과가 입증된 줌마슬라이드!\n지금 바로 시작하세요!
+    </string>
+    <string name="message.ad_lplp.title">동네 아줌마의 핸드폰 첫 화면에\n당신의 가게를 홍보하세요!</string>
+
+    <string name="message.address_input.house_help">주택에 사시는 경우<u>서비스 제한</u>이 있습니다.
+    </string>
+
+    <string name="message.agree.terms">약관에 동의해주세요.</string>
+
+    <string name="message.alert.auth">소중한 정보를 안전하게 보관하기 위해\n*이메일을 등록**해주세요!</string>
+
+    <string name="message.alert.family">줌머니를 받으려면\n먼저 *우리집을 등록**해주세요.</string>
+
+    <string name="message.alert.nickname">별명은 댓글 및 리뷰 등을 작성할 때 사용됩니다.</string>
+
+    <string name="message.already_signup">%s으로 연동된 번호입니다.</string>
+
+    <string name="message.apartment.registration.alert.failure">주소정보가 없는 경우 서비스 이용에 제한이 있습니다.
+    </string>
+
+    <string name="message.apartment.registration.alert.wait">주소정보가 없는 경우 서비스 이용에 제한이 있습니다.\n아파트가 등록
+        완료되면 꼭 주소를 완성해주세요.
+    </string>
+
+    <string name="message.apartment.registration.request">제보하신 아파트는 2영업일 이내 처리됩니다.\n
+        처리 완료 푸시를 받으시면, 주소를 꼭 다시 입력해 주세요.
+    </string>
+
+    <string name="message.apartment.registration.request.existing_member">아파트 등록 신청이 완료됐습니다. 신청하신
+        아파트는 1~2일 후에 등록됩니다.
+    </string>
+
+    <string name="message.apartment.registration.retry">아파트를 변경하고 싶으신가요?</string>
+
+    <string name="message.cancel.order">주문을 취소하시겠습니까?</string>
+
+    <string name="message.cart.shop.already_exist">이미 해당 상품이 장바구니에 있습니다.\n현재 수량으로 변경됩니다.</string>
+
+    <string name="message.cart.shop.success">장바구니에 담겼습니다.</string>
+
+    <string name="message.certification.complete.confirm">인증되었습니다. 확인을 눌러주세요.</string>
+
+    <string name="message.certification.confirm">실명인증을 완료하시면 회원정보가 인증 정보로 대체됩니다.</string>
+
+    <string name="message.certification.email">%s에 인증번호를 발송했습니다.\n유효 시간 안에 인증번호를 입력하세요.\n(혹시 메일이 오지
+        않았다면 스팸메일함도 확인해보세요.)
+    </string>
+
+    <string name="message.certification.email.start">연동했던 이메일 주소를 입력하고, 인증번호를 받으세요.</string>
+
+    <string name="message.certification.find.password">비밀번호 변경 시 휴대폰 인증 절차가 필요합니다.</string>
+
+    <string name="message.certification.phone">10초 이내로 인증번호가 문자로 보내집니다.\n인증 번호를 입력하고, [인증하기]를
+        누르세요.
+    </string>
+
+    <string name="message.certification.phone.start">안녕하세요! 반갑습니다 :)\n<b>매월 관리비 차감</b>해주는
+        줌마슬라이드입니다.\n\n회원가입은 <b>[인증하기]</b>를 누르면 진행됩니다.
+    </string>
+
+    <string name="message.certification.phone2">30초 이상 문자가 오지 않는다면\n[인증번호 재요청]을 눌러주세요.\n(인증번호 요청은 하루
+        5번까지 가능합니다.)
+    </string>
+
+    <string name="message.certification.require">줌머니를 계좌로 받기 위해서는 실명인증이 필요합니다.\n아래 버튼을 눌러 실명인증을
+        진행해주세요.
+    </string>
+
+    <string name="message.certification.timeout">인증번호를 재요청해주세요.</string>
+
+    <string name="message.check.network">인터넷 연결을 확인해주세요.</string>
+
+    <string name="message.check.shipping_address">배송지 정보를 확인해주세요.</string>
+
+    <string name="message.complete.account_link">인증이 완료되었습니다. 기기 변경이나 분실 시 등록한 계정으로 언제든 접속할 수
+        있습니다.
+    </string>
+
+    <string name="message.confirm.apartment">이 주소가 확실한가요?</string>
+
+    <string name="message.confirm.apartment.registration">등록 신청하시겠습니까?</string>
+
+    <string name="message.confirm.cancel">취소하시겠습니까?</string>
+
+    <string name="message.confirm.delete">삭제하시겠습니까?</string>
+
+    <string name="message.confirm.email.certification">아래의 메일로 인증번호를 발송하시겠습니까?\n%s</string>
+
+    <string name="message.confirm.leave">정말 탈퇴하시겠습니까?</string>
+
+    <string name="message.confirm.logout">로그아웃 하시겠습니까?</string>
+
+    <string name="message.confirm.logout.without_auth">로그아웃 하시겠습니까?\n메일을 등록하지 않으면 기기 변경이나 분실 시 같은
+        계정을 사용할 수 없습니다. 안전하게 이메일 등록 후 로그아웃을 권장해드립니다.
+    </string>
+
+    <string name="message.confirm.move_house">주소를 확인하셨나요?</string>
+
+    <string name="message.confirm.recruiter">입력하신 모집인 코드(%s)로 신청을 진행합니다.</string>
+
+    <string name="message.confirm.recruiter.empty">모집인 코드를 입력해주세요.\n모르실 경우 0을 입력하세요.</string>
+
+    <string name="message.confirm.unblock">%s님을 차단 해제하시겠어요?</string>
+
+    <string name="message.copy">클립보드에 내용이 복사되었습니다.</string>
+
+    <string name="message.deactivated_device">개통되지 않은 기기입니다. 관리자에게 문의해 주세요.</string>
+
+    <string name="message.delivery.guide">배송 예정일:주문일로부터 2일 뒤에 배송</string>
+
+    <string name="message.delivery.warning">※ 배송 예정일은 도서/산간지역 배송 등 불가피한 사유로 2~3일 이상 차이 날 수 있습니다.
+    </string>
+
+    <string name="message.empty">내용이 없습니다.</string>
+
+    <string name="message.empty.address">앗! 찾으시는 주소가 없으신가요?\n1:1 문의를 이용해주세요.</string>
+
+    <string name="message.empty.address.content">빠른 시일안에 오픈하도록 하겠습니다.</string>
+
+    <string name="message.empty.address.title">검색하신 주소는 서비스 지역이 아닙니다.</string>
+
+    <string name="message.empty.apartment">아파트 이름이 안 나오시나요? 제보하기</string>
+
+    <string name="message.empty.button.cart">줌마쇼핑 바로가기</string>
+
+    <string name="message.empty.button.delivery_store_like">배달 바로가기</string>
+
+    <string name="message.empty.button.payment_history">줌마쇼핑 바로가기</string>
+
+    <string name="message.empty.button.visit_store_like">방문 바로가기</string>
+
+    <string name="message.empty.button.zummacast_bookmark">줌마캐스트 바로가기</string>
+
+    <string name="message.empty.button.zummastore">가게 추천하기</string>
+    <string name="message.empty.button.zummastore_like">줌마가게 바로가기</string>
+
+    <string name="message.empty.content">내용이 없습니다.</string>
+
+    <string name="message.empty.family">우리집을 등록하고 가족과 함께\n줌머니를 모아보세요.</string>
+
+    <string name="message.empty.message.cart">필요한 물건을 담아보세요!</string>
+
+    <string name="message.empty.message.coupon">등급을 올리거나 이벤트에 참여하시면\n다양한 쿠폰을 얻을 수 있습니다!</string>
+
+    <string name="message.empty.message.payment_history">줌마쇼핑에서 물건을 구매해보세요!</string>
+
+    <string name="message.empty.message.stamp">스탬프 적립가게에서 배달 주문하고\n스탬프를 모아보세요!</string>
+
+    <string name="message.empty.message.zummacast_bookmark">줌마캐스트에서 절약팁을 알아보세요!</string>
+
+    <string name="message.empty.message.zummastore">가게를 추천해보세요!</string>
+    <string name="message.empty.message.zummastore_like">줌마가게에서 하트를 눌러보세요!</string>
+
+    <string name="message.empty.my_review">작성한 리뷰가 없습니다.</string>
+
+    <string name="message.empty.notification">알림이 없습니다.</string>
+
+    <string name="message.empty.phone_number">핸드폰 번호가 없습니다.</string>
+
+    <string name="message.empty.retry">내용이 없습니다.\n다시 시도해보시겠어요?</string>
+
+    <string name="message.empty.review">리뷰가 없어요.\n리뷰를 남겨주시겠어요?</string>
+
+    <string name="message.empty.search">검색결과가 없습니다.</string>
+
+    <string name="message.empty.search.family">
+        <font color="#ff5555">\'%1$s\'</font>에 대한 검색 결과가
+        없습니다.\n- 핸드폰 번호를 모두 입력해주세요.
+    </string>
+
+    <string name="message.empty.title.cart">장바구니가 비어있습니다.</string>
+
+    <string name="message.empty.title.coupon">쿠폰이 없습니다.</string>
+
+    <string name="message.empty.title.mission">수행할 수 있는 미션이 없습니다.</string>
+
+    <string name="message.empty.title.payment_history">구매내역이 비어있습니다.</string>
+
+    <string name="message.empty.title.stamp">스탬프가 없습니다.</string>
+
+    <string name="message.empty.title.zummacast_bookmark">보관한 글이 없습니다.</string>
+
+    <string name="message.empty.title.zummastore">근처에 가까운 가게가 없습니다.</string>
+    <string name="message.empty.title.zummastore_like">좋아요 한 가게가 없습니다.</string>
+
+    <string name="message.error.coupon_code.short">쿠폰 번호를 확인해주세요.</string>
+
+    <string name="message.error.family.short">가족 이름은 두글자 이상어야 합니다.</string>
+
+    <string name="message.error.name.short">이름은 두글자 이상어야 합니다.</string>
+
+    <string name="message.error.nickname.short">별명은 두글자 이상어야 합니다.</string>
+
+    <string name="message.error.password.not_equals">비밀번호가 일치하지 않습니다.</string>
+
+    <string name="message.error.password.short">8자 이상 입력해주세요.</string>
+
+    <string name="message.event.at.apply.require_certify.alert">신청하기 위해서는 실명인증이 필요합니다.\n실명인증 페이지로
+        이동합니다.
+    </string>
+
+    <string name="message.failure.auth_link">연동에 실패했습니다. 다시 시도해주세요.</string>
+
+    <string name="message.failure.delete.shipping_address">배송지를 삭제하는데 실패했습니다. 다시 시도해주세요.</string>
+
+    <string name="message.failure.edit.shipping_address">배송지를 수정하는데 실패했습니다. 다시 시도해주세요.</string>
+
+    <string name="message.failure.initialize">초기화 도중 문제가 발생했습니다. 어플리케이션을 다시 실행해주세요.</string>
+
+    <string name="message.failure.latest_notice">공지를 불러오는데 실패했습니다.</string>
+
+    <string name="message.failure.network">네트워크 환경이 불안정합니다.</string>
+
+    <string name="message.failure.payment">결제를 실패했습니다. 확인 후 다시 시도해주세요.</string>
+
+    <string name="message.failure.request">요청 도중 오류가 발생했습니다.</string>
+    <string name="message.failure.request_location">네트워크 환경이 불안정하여 위치 정보가 부정확할 수 있습니다.</string>
+
+    <string name="message.failure.signup">회원가입에 실패했습니다. 다시 시도해주세요.</string>
+
+    <string name="message.failure.store_image">이미지를 저장하는 데 실패했습니다.</string>
+
+    <string name="message.family.create">우리집이 등록되어 있지 않아요.</string>
+
+    <string name="message.family.empty">우리집 정보가 아직 없습니다. 지금 등록하시겠어요?</string>
+
+    <string name="message.family.exist">이미 사용중인 이름이에요.</string>
+
+    <string name="message.family.join">우리집이 등록되어 있어요.</string>
+
+    <string name="message.family.joined">가족으로 등록됐습니다.</string>
+
+    <string name="message.family.registration.blocked">가족에서 제외됐습니다.\n가족대표에게 문의하거나, 주소를 새로 등록해주세요.
+    </string>
+
+    <string name="message.family.registration.intro">아래 두가지 버튼 중에\n해당하는 버튼을 누르세요.</string>
+
+    <string name="message.family.search">검색어가 정확하게 일치해야합니다.</string>
+
+    <string name="message.find.location">위치 설정중…</string>
+
+    <string name="message.find.password">비밀번호가 기억나지 않으세요?</string>
+
+    <string name="message.guide.back_press">\'뒤로\'버튼을 한번 더 누르시면 종료됩니다.</string>
+
+    <string name="message.guide.delivery.content1">평일 주문은 오후 8시까지 주문건에 한해 익일 배송합니다.</string>
+
+    <string name="message.guide.delivery.content2">배송일은 2~3일 소요됩니다. (토/공휴일 제외)</string>
+
+    <string name="message.guide.delivery.content3">금요일/공휴일 주문건은 월요일 배송됩니다.</string>
+
+    <string name="message.guide.return.content1">배송중 파손 및 상품하자시 100% 교환/환불 해드립니다.</string>
+
+    <string name="message.guide.return.content2">수령후 3일 지난 상품, 소비자의 단순 변심, 일부를 드신 후에는 교환/환불/반품이 되지
+        않습니다.
+    </string>
+
+    <string name="message.guide.return.content3">상품을 수령 후 하자 발견시 고객센터로 문의 해주시면 확인 후 바로
+        처리해드리겠습니다.
+    </string>
+
+    <string name="message.guide.servicecenter.content2">* 상담 시간: 평일 오전 9시 ~ 오후 6시</string>
+
+    <string name="message.history.create.success">결제가 완료되었습니다. 구매내역에서 확인해주세요.</string>
+
+    <string name="message.input.account_number">입금될 계좌의 계좌번호를 입력해주세요(- 제외)</string>
+    <string name="message.input.account_owner">예금주를 입력해주세요</string>
+
+    <string name="message.input.apartment">아파트 이름을 입력해주세요.</string>
+
+    <string name="message.input.birth_year">출생 년도를 선택해주세요.</string>
+
+    <string name="message.input.dong">동(읍, 면,리)을 입력해주세요.</string>
+
+    <string name="message.input.dong.alert">살고 계신 주소를<b>지번 주소</b>로 검색하세요.\n도로명 주소 검색은 준비 중입니다!
+    </string>
+
+    <string name="message.input.name">실명을 입력해주세요</string>
+
+    <string name="message.input.nickname">별명을 입력해주세요.</string>
+
+    <string name="message.input.password">비밀번호를 입력해주세요.</string>
+
+    <string name="message.input.password.new">새로운 비밀번호를 입력해주세요.</string>
+
+    <string name="message.input.personal_information">더 알맞는 정보를 제공해드려요.</string>
+
+    <string name="message.input.recommender">추천해준 친구와 %s줌씩 적립 받으세요!</string>
+
+    <string name="message.input_mode.apartment">아파트 등록으로 돌아가시겠어요?</string>
+    <string name="message.input_mode.house">혹시 주택에 사시나요?</string>
+
+    <string name="message.intro.tempuser">살림왕의<b>숨은 비법!</b>\n줌마슬라이드\n\n우리집을 등록하고\n온 가족과 함께 관리비 절약을
+        시작해보세요
+    </string>
+
+    <string name="message.intro1">첫 화면에서<b>간단한동작</b>만으로\n<b>매월 관리비가 차감</b>됩니다.
+    </string>
+
+    <string name="message.intro1.content1">
+        <b>왼쪽</b>으로 밀어\n
+        <b>정보 자세히 보기</b>
+    </string>
+
+    <string name="message.intro1.content2">
+        <b>오른쪽</b>으로 밀어\n
+        <b>잠금해제</b>
+    </string>
+
+    <string name="message.intro2">
+        <b>온 가족</b>이 쓰면 자동 합산!\n 매달
+        <b>관리비 더 절약!</b>
+    </string>
+
+    <string name="message.intro3">생활에 편리하고 다양한 혜택!</string>
+
+    <string name="message.intro4">줌마슬라이드는\n<b>아파트 관리비를 차감</b>해주는 앱이에요
+    </string>
+
+    <string name="message.intro5">
+        <b>줌머니</b>(줌마슬라이드 화폐)로\n매달 관리비를 차감받을 수 있어요
+    </string>
+
+    <string name="message.intro6">
+        <b>줌머니</b>는 이렇게 모을 수 있습니다.
+    </string>
+
+    <string name="message.invalid">잘못된 정보입니다.</string>
+
+    <string name="message.invalid.password">올바르지 않은 비밀번호입니다.</string>
+
+    <string name="message.invite.family.clipboard2">[문구복사]를 누르면 위의 글이 복사됩니다. 원하는 곳에 글을 붙여 넣어서 초대글을
+        써보세요.
+    </string>
+
+    <string name="message.level.period">회원님의 현재 등급은 추천인수와\n%1$s부터 %2$s까지의\n적립금액을 반영했습니다.</string>
+
+    <string name="message.link.email">소중한 정보를 안전하게 보관하기 위해 이메일을 등록하세요.</string>
+
+    <string name="message.loading">정보를 받아오고 있습니다.</string>
+
+    <string name="message.location.empty.recent">최근 사용한 위치가 없습니다.</string>
+
+    <string name="message.location.source.latest">최근 위치로 검색합니다.</string>
+
+    <string name="message.location.source.profile">주소지로 검색합니다.</string>
+
+    <string name="message.location.state.failure">위치 정보를 가져오지 못했습니다. 위치를 직접 선택해주세요.</string>
+
+    <string name="message.location.state.permission_denied">위치 정보 사용 권한이 없어</string>
+
+    <string name="message.location.state.provider_disabled">위치 정보 사용 설정이 꺼져 있어</string>
+
+    <string name="message.location.state.request_failure">네트워크가 불안정해</string>
+
+    <string name="message.location.state.success"/>
+
+    <string name="message.location.state.timeout">위치를 찾을 수 없어</string>
+
+    <string name="message.login.with">%s에 연동됐습니다.</string>
+
+    <string name="message.mission.check_install">아직 설치가 완료되지 않았습니다. 설치를 완료하신 후 미션 완료 버튼을 눌러주세요.
+    </string>
+
+    <string name="message.mission.complete">미션을 완료했습니다!</string>
+
+    <string name="message.modify_nickname.alert">공백 없이 2글자 이상 6글자 이하</string>
+
+    <string name="message.no_permission_phone">전화 권한이 없습니다.</string>
+
+    <string name="message.notification.apartment.agree">%s(은)는 현재 협약이 이루어지지 않았습니다.\n빠른 시일 내에 협약을 맺도록
+        하겠습니다.
+    </string>
+
+    <string name="message.notification.apartment.agree.complete">축하드립니다! %1$s(과)와 %2$d년 %3$d월 %4$d일
+        협약이 이루어졌습니다!\n%5$d년 %6$d월 부터 관리비가 자동으로 차감됩니다.
+    </string>
+
+    <string name="message.notification.lockscreen">관리비 절약하는 중!</string>
+
+    <string name="message.notification.reward">%d줌 적립 되었습니다.</string>
+
+    <string name="message.now_login">로그인 중입니다.</string>
+
+    <string name="message.ocb.min">%d 포인트부터 사용할 수 있습니다.</string>
+
+    <string name="message.only_number">숫자만 입력해주세요.</string>
+
+    <string name="message.permission_denied">권한이 없습니다.</string>
+
+    <string name="message.registration.family">우리집을 등록해주세요.</string>
+
+    <string name="message.registration.family.create">처음 오셨나요?</string>
+
+    <string name="message.registration.family.search">이사갈 집에 줌마 회원이 있어요</string>
+
+    <string name="message.request_permission">%1$s %2$s 권한이 필요합니다.\n설정 &gt; 애플리케이션 &gt; 줌마슬라이드 &gt;
+        권한에서 %2$s
+        권한을 허용으로 변경해주세요.
+    </string>
+    <string name="message.request_permission.location">정확한 정보를 제공하기 위해</string>
+    <string name="message.request_permission.phone">회원가입 및 로그인을 위해</string>
+    <string name="message.request_permission.phone.must">줌마슬라이드 실행에 필요한 권한이 없습니다. 실행하고 싶으시다면 [설정] -
+        [권한]에서 권한을 활성화해주세요.
+    </string>
+
+    <string name="message.retry">다시 시도해주세요.</string>
+
+    <string name="message.retry.auth">문제가 발생했습니다. 처음부터 다시 시작해주세요!</string>
+
+    <string name="message.review.please">리뷰를 남겨주세요.</string>
+
+    <string name="message.review.too_short">내용을 최소 %d자 이상 입력해주세요.</string>
+
+    <string name="message.select.address">주소를 선택해주세요</string>
+
+    <string name="message.select.apartment.registration">아래는 이미 등록 신청 중인 아파트입니다.\n가장 일치하는 아파트를 찾아
+        신청해주세요.
+    </string>
+
+    <string name="message.select.bank">은행을 선택해주세요.</string>
+
+    <string name="message.select.cart">상품을 선택해주세요.</string>
+
+    <string name="message.session.expired">로그인이 필요합니다.</string>
+
+    <string name="message.settings.location">위치 정보 사용에 동의하시면\n더욱 정확한 정보를 받으실 수 있습니다.</string>
+
+    <string name="message.signup">처음 오셨나요?</string>
+
+    <string name="message.signup.need">등록되지 않은 회원입니다.\n회원 가입을 해주세요.</string>
+
+    <string name="message.success.auth_link">연동에 성공했습니다.</string>
+
+    <string name="message.success.delete.review">상품평을 성공적으로 삭제했습니다.</string>
+
+    <string name="message.success.edit.profile">정보가 변경됐습니다.</string>
+
+    <string name="message.success.edit.shipping_address">배송지를 수정하는데 성공했습니다.</string>
+
+    <string name="message.success.move_house">주소를 성공적으로 변경했습니다.</string>
+
+    <string name="message.success.payment">성공적으로 결제를 완료했습니다.</string>
+
+    <string name="message.success.registration_account">계좌를 성공적으로 등록했습니다.</string>
+
+    <string name="message.success.save">적립되었습니다.</string>
+
+    <string name="message.success.signup">회원 가입에 성공했습니다.</string>
+
+    <string name="message.success.update.password">비밀번호가 변경됐습니다.</string>
+
+    <string name="message.success.write.review">상품평을 성공적으로 등록했습니다.</string>
+
+    <string name="message.suggestion.thanks">소중한 의견 감사합니다. 적극 검토하도록 하겠습니다.</string>
+
+    <string name="message.temp_apartment.failure">아파트를 등록하지 못했습니다. 등록 취소 사유를 문자로\n보내드렸으니 확인하시고 주소를
+        다시 입력해주세요.
+    </string>
+    <string name="message.temp_apartment.success">제보하신 아파트가 처리되었습니다. 상세주소를 입력해주세요.</string>
+    <string name="message.temp_apartment.wait">제보하신 아파트는 2영업일 이내 처리됩니다.\n처리 완료 푸시를 받으시면, 주소를 꼭 다시 입력해주세요.</string>
+    <string name="message.temp_apartment.tempapart">2영업일 이내 이름이 등록됩니다.</string>
+
+    <string name="message.terms">완료를 누르면 줌마슬라이드 이용약관과\n개인정보취급방침에 동의하는 것으로 간주합니다.</string>
+
+    <string name="message.throw_member.alert1">우리집에서 내보낼 사람을 선택하세요</string>
+    <string name="message.throw_member.alert2">%s을 내보내는 이유를 선택하세요.</string>
+    <string name="message.throw_member.cause1">모르는 사람입니다.</string>
+    <string name="message.throw_member.cause2">다른 곳으로 이사간 사람입니다.</string>
+
+    <string name="message.usage.call">[바로전화] 버튼을 눌러 전화주문하시면 적립됩니다.</string>
+
+    <string name="message.usage.stamp">%s 스탬프 카드에 적립됩니다.</string>
+
+    <string name="message.usage.visit">매장에 방문하여 결제할 때 줌마적립을 요청하세요.</string>
+
+    <string name="message.version.equal">현재 최신 버전입니다.</string>
+
+    <string name="message.version.update">업데이트가 있습니다.</string>
+
+    <string name="message.wait">잠시만 기다려주세요.</string>
+
+    <string name="message.warning.account.registration">※ 아파트와 업무협조 되기 전까지 요청하신 계좌로 현급지급됩니다.
+    </string>
+
+    <string name="message.warning.input.account">※ 정보가 부정확할 경우 이체가 되지 않을 수 있습니다. 정확히 입력해주세요.
+    </string>
+
+    <string name="message.warning.slide_off">해제하시면 적립을 할 수 없고, 유익한 정보를 받을 수 없습니다.\n정말 해제 하시겠어요?
+    </string>
+
+    <string name="message.warning.user.certification">줌머니를 받으려면 실명인증이 필요합니다.</string>
+
+    <string name="message.zmoney.deposit">내가 모은 줌머니는 가족 줌머니와 합산됩니다.</string>
+
+    <string name="message.zmoney.expected.account">%1$s / %2$s(예금주 : %3$s) / %4$,d원 입금될 예정입니다.
+    </string>
+
+    <string name="message.zmoney.expected.account.done">%1$s / %2$s(예금주 : %3$s) / %4$,d원 입금되었습니다.
+    </string>
+
+    <string name="message.zmoney.expected.apart">%1$s 관리비(명세서 기준)에서 %2$,d원 차감될 예정입니다.</string>
+
+    <string name="message.zmoney.expected.apart.done">%1$s 관리비(명세서 기준)에서 %2$,d원 차감됐습니다.</string>
+
+    <string name="message.zmoney.expected.house.detail">자세한 사항은 옆에 물음표를 눌러주세요!</string>
+
+    <string name="message.zmoney.expected.house.minimum">3,000줌 이상 모으셔야 입금이 가능합니다.</string>
+
+    <string name="message.zmoney.expected.zero">이번 달 %s 예정 줌머니는 0줌이에요. ㅜ_ㅜ</string>
+
+    <string name="message.zmoney.family.certification">아파트 협약이 안 되어있는 경우, 실명인증을 해야 줌머니를 계좌 이체 받으실 수
+        있습니다.
+    </string>
+
+    <string name="message.zmoney.family.deposit">가족 줌머니는 [%s]에 등록된 계좌로 입금됩니다.</string>
+
+    <string name="message.zmoney.family.total">지금까지 모은 가족 줌머니 : %1$,d줌</string>
+
+    <string name="message.zmoney.last">지난달 줌머니 %1$,d줌은 %2$d월 관리비(명세서 기준)에서 차감될 예정입니다.</string>
+
+    <string name="message.zmoney.last.account.need">지난달 줌머니는 %1$,d줌입니다.\n아파트 협약이 안 되어있기 때문에 자동 관리비
+        차감이 되지 않습니다.
+        <b>계좌를 등록하시면 모은 줌머니를 매달 계좌로 받을 수 있습니다.</b>
+    </string>
+
+    <string name="message.zmoney.total">지금까지 모으신 줌머니 : %1$,d줌</string>
+
+    <string name="message.zummashopping">필요한 물건 사고 관리비 차감!</string>
+
+    <string name="message.zummastore">가까운 가게 이용하고 관리비 차감!</string>
+
+    <string name="message_account_alert1">계좌정보는 가족대표가 수정할 수 있습니다.</string>
+    <string name="message_account_alert2">계좌정보가 정확하지 않은 경우 줌머니 입금이 실패할 수 있습니다. 꼭 정확히 입력해주세요.
+    </string>
+    <string name="message_account_alert3">기일이 지난 후에도 입금되지 않는 경우 고객센터로 연락주세요. (고객센터 1670–9039)
+    </string>
+    <string name="message_account_alert4">주택 거주시 줌머니 입금에 제한이 있습니다.</string>
+    <string name="message_account_empty">계좌가 등록되어있지 않습니다.\n줌머니를 입금받으시려면 계좌를 등록하셔야 합니다.\n계좌는
+        가족대표만 등록할 수 있습니다.
+    </string>
+    <string name="message_address_alert">주소 입력은 가족 대표만 가능합니다. 가족 대표에게 주소 입력을 요청해주세요.\n가족 대표: %1$s,
+        %2$s
+    </string>
+    <string name="message_bank_account_alert1">지급 받으실 계좌 정보를 입력해주세요.</string>
+    <string name="message_bank_account_alert2">가족 대표에게 계좌 등록을 요청해주세요.</string>
+    <string name="message_bank_account_alert3">계좌 정보는 가족 대표가 등록, 수정할 수 있습니다.\n가족 대표: %1$s, %2$s
+    </string>
+    <string name="message_complete_signup">회원 가입이 완료됐습니다!\n\n줌마슬라이드는\n<b>매월 관리비 차감</b>해주는
+        앱이에요.\n\n우리집을 등록하고 시작해보세요!
+    </string>
+    <string name="message_coupon_expired">유효기간이 지났습니다.</string>
+    <string name="message_description_thumbnail">썸네일입니다.</string>
+    <string name="message_empty_related_cast">연관된 캐스트가 없습니다</string>
+    <string name="message_error_expected_payments1">우리집 정보가 없어 지급이 보류됩니다.</string>
+    <string name="message_error_expected_payments2">지급 받으실 계좌 정보를 입력해주세요.</string>
+    <string name="message_error_expected_payments3">제보하신 아파트 이름을 처리 중입니다. 조금만 기다려주세요 :)</string>
+    <string name="message_error_expected_payments4">주소 정보가 없어 지급이 보류됩니다.</string>
+    <string name="message_error_expected_payments5">동, 호수가 올바르지 않아 지급이 보류됐습니다.</string>
+    <string name="message_guide_bank_account">줌머니는 등록한 계좌로 매월 지급됩니다 계좌를 등록해주세요.</string>
+    <string name="message_invite_family1">함께 살고있는 가족들을 초대하고\n초대 받은 가족과 함께 %s줌씩 적립받으세요!</string>
+    <string name="message_invite_family2">가입하는 가족이 추천인란에 회원님의\n추천인 코드를 입력해야 줌머니를 받으실 수 있습니다.
+    </string>
+    <string name="message_levelup">축하드립니다.
+        <b>%s</b>
+        등급이 되셨어요!\n더 다양해진 혜택을 만나보세요.
+    </string>
+    <string name="message_modify_family_leader_alert">대신하여 가족 대표를 맡을 사람을 선택해주세요.
+    </string>
+    <string name="message_payments_detail1">지급 내역이 없습니다.</string>
+    <string name="message_payments_detail2">관리비로 정산되었습니다.\n이번 달 관리비 고지서를 확인하세요.</string>
+    <string name="message_payments_detail3">계좌로 지급되었습니다.\n%1$s %2$s (%3$s)</string>
+    <string name="message_payments_detail4">계좌로 지급되었습니다.</string>
+    <string name="message_payments_detail5">지급이 보류됐습니다.</string>
+    <string name="message_payments_detail6">지급 내역이 없습니다.</string>
+    <string name="message_payments_detail_5_1">금액이 부족합니다.</string>
+    <string name="message_payments_detail_5_2">동, 호수가 잘못됐습니다.</string>
+    <string name="message_payments_detail_5_3">1:1 문의로 연락 바랍니다.</string>
+
+    <string name="my_reviews">내 리뷰</string>
+
+    <string name="mypage.address.button">@string/search</string>
+
+    <string name="mypage.address.empty">@string/message.empty.search</string>
+
+    <!-- End Sign Up -->
+    <!-- Begin Mypage -->
+    <string name="mypage.address.hint">@string/message.input.dong</string>
+
+    <string name="none"/>
+
+    <!-- Begin Google Play Services -->
+    <string name="not_supported_device">지원되지 않는 기기입니다.</string>
+
+    <string name="notification_error_ssl_cert_invalid">이 서버가 %s임을 입증할 수 없으며 컴퓨터의 운영체제에서 신뢰하는 보안 인증서가
+        아닙니다. 서버를 잘못 설정했거나 불법 사용자가 연결을 가로채고 있기 때문일 수 있습니다.
+    </string>
+
+    <string name="order_history">주문 내역</string>
+
+    <string name="path.terms.location">app/terms/location/</string>
+
+    <string name="path.terms.privacy">app/terms/privacy/</string>
+
+    <string name="path.terms.third">app/terms/third/</string>
+
+    <string name="path.terms.use">app/terms/use/</string>
+
+    <string name="payments_price">지급 금액</string>
+    <string name="payments_state_deduct">관리비 차감</string>
+    <string name="payments_state_deposit">계좌입금</string>
+    <string name="payments_state_keep">다음 달로 이월</string>
+
+    <string name="pick_image_intent_chooser_title">이미지 선택</string>
+
+    <string name="please_registration_family">우리집 정보를 등록해주세요.</string>
+
+    <!-- End Format -->
+    <!-- Begin Postfix -->
+    <string name="postfix.ages">대</string>
+
+    <string name="postfix.agree">에 동의합니다.</string>
+
+    <string name="postfix.count.paper">장</string>
+
+    <string name="postfix.dong">동</string>
+
+    <string name="postfix.ho">호</string>
+
+    <string name="postfix.people">명</string>
+
+    <string name="postfix.percent">%</string>
+
+    <string name="postfix.price">원</string>
+
+    <string name="postfix.stampCard">스탬프</string>
+
+    <string name="postfix_point">줌</string>
+
+    <string name="receive_receipt">영수증 받기</string>
+
+    <string name="request_empty">없음</string>
+    <string name="request_rating_message">%s님, 이 가게를 평가해주세요!</string>
+    <!-- END Google Play Services -->
+    <!-- Begin Refund -->
+    <string name="request_refund">관리비 차감금액 요청</string>
+
+    <string name="require_phone_permission_splash"><![CDATA[줌마슬라이드를 서비스를 제공하기 위해 전화 권한이 필요합니다. 휴대폰 설정 > 애플리케이션 > 줌마슬라이드에서 전화 권한을 허용으로 변경해주세요.]]></string>
+
+    <string name="reset_location">위치 재설정</string>
+
+    <string name="search">검색</string>
+    <string name="search_store">매장 검색</string>
+
+    <string name="setting_label_app_info">앱 정보</string>
+    <string name="setting_label_help">고객센터</string>
+    <string name="setting_label_home">우리집 정보</string>
+    <string name="setting_label_notice">공지사항</string>
+    <string name="setting_label_use_locker">첫화면 사용하기</string>
+    <string name="setting_label_use_reward_notification">적립 알림 받기</string>
+    <string name="setting_label_use_zmoney">줌머니 앱 사용하기</string>
+
+    <string name="shopping">쇼핑</string>
+
+    <string name="signup.address.button">@string/search</string>
+
+    <!-- Begin Sign Up -->
+    <string name="signup.address.hint">@string/message.input.dong</string>
+
+    <string name="signup.empty.address">@string/message.empty.search</string>
+
+    <string name="stamp_cancel_content">자동 적립 시스템의 경우 실제 주문이 아니더라도 스탬프가 적립될 수 있습니다.\n회원님이 직접 [스탬프
+        취소] 버튼을 눌러 취소할 수 있습니다.\n다만, 취소된 스탬프는 복구되지 않으니 신중히 취소해주세요!
+    </string>
+    <string name="stamp_cancel_title">주문 안 했는데 스탬프가 잘못 찍혔어요.</string>
+    <string name="stamp_card_title">%1$s 스탬프카드 #%2$d</string>
+    <string name="stamp_dashboard">요청 현황</string>
+
+    <string name="temp_apartment_wait">제보하신 아파트는 2영업일 이내 처리됩니다.\n처리 완료 푸시를 받으시면, 주소를 꼭 다시 입력해 주세요.
+    </string>
+
+    <string name="tutorial_locker_desc1">다양한 컨텐츠를 볼 수 있어요!</string>
+    <string name="tutorial_locker_desc2">화면 잠금을 해제할 수 있고, 포인트를 쌓을 수 있습니다.</string>
+    <string name="tutorial_locker_desc3">더 많은 포인트를 받거나 컨텐츠의 내용을 자세히 볼 수 있답니다.</string>
+    <string name="tutorial_locker_title1">로 밀어보세요.</string>
+    <string name="tutorial_locker_title1b">위, 아래</string>
+    <string name="tutorial_locker_title2">으로 밀어보세요.</string>
+    <string name="tutorial_locker_title2b">오른쪽</string>
+    <string name="tutorial_locker_title3">으로 밀어보세요.</string>
+    <string name="tutorial_locker_title3b">왼쪽</string>
+
+    <string name="use_zmoney">앱 사용하기</string>
+
+    <string name="user_level">회원 등급</string>
+
+    <string name="view_in_the_zmoney">줌머니 앱에서 확인</string>
+
+    <string name="link_to_zmoney">줌머니 앱으로 이동합니다.</string>
+
+    <string name="visit">방문</string>
+
+    <string name="wait_order_accept">주문 접수 대기 중</string>
+
+    <string name="zmoney_suggestion_message">줌마슬라이드의 기존 서비스(배달가게, 스탬프 적립, 방문가게, 줌마쇼핑, 바로적립 등)을 이용할 수
+        있습니다. 줌마슬라이드 앱과 적립 데이터가 연동됩니다.
+    </string>
+    <string name="zmoney_suggestion_title">줌머니 앱 사용하기</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="27dp"
+            android:layout_marginTop="27dp"
+            android:gravity="center"
+            android:text="회원 탈퇴 안내 사항을 읽으신 후 동의해주세요."
+            android:textSize="@dimen/font_micro"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_c"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/spacing_huge"
+            android:paddingEnd="@dimen/spacing_smaller"
+            android:paddingLeft="@dimen/spacing_smaller"
+            android:paddingRight="@dimen/spacing_smaller"
+            android:paddingStart="@dimen/spacing_smaller"
+            android:paddingTop="@dimen/spacing_large">
+
+            <CheckBox
+                android:id="@+id/agree1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/spacing_smaller"
+                android:paddingLeft="@dimen/spacing_smaller"
+                android:paddingRight="@dimen/spacing_smaller"
+                android:paddingStart="@dimen/spacing_smaller"
+                android:text="@string/label.leave.agree1"
+                android:textSize="@dimen/font_micro"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_micro"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="@dimen/spacing_micro"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:lineSpacingExtra="@dimen/spacing_normal"
+                android:text="회원 탈퇴 후 잔여 줌머니, 쿠폰은 소멸되어 복구되지 않습니다."
+                android:textSize="@dimen/font_micro"/>
+
+            <CheckBox
+                android:id="@+id/agree2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="@dimen/spacing_smaller"
+                android:paddingLeft="@dimen/spacing_smaller"
+                android:paddingRight="@dimen/spacing_smaller"
+                android:paddingStart="@dimen/spacing_smaller"
+                android:text="@string/label.leave.agree2"
+                android:textSize="@dimen/font_micro"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_micro"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="@dimen/spacing_micro"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:lineSpacingExtra="@dimen/spacing_normal"
+                android:text="등록하신 게시물은 회원 탈퇴 후에도 삭제되지 않습니다. 게시물 삭제를 원하시는 경우 직접 게시물을 삭제하신 후, 탈퇴를 신청하시기 바랍니다."
+                android:textSize="@dimen/font_micro"/>
+
+            <CheckBox
+                android:id="@+id/agree3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="@dimen/spacing_smaller"
+                android:paddingLeft="@dimen/spacing_smaller"
+                android:paddingRight="@dimen/spacing_smaller"
+                android:paddingStart="@dimen/spacing_smaller"
+                android:text="@string/label.leave.agree3"
+                android:textSize="@dimen/font_micro"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_micro"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="@dimen/spacing_micro"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:lineSpacingExtra="@dimen/spacing_normal"
+                android:text="탈퇴 유예 기간(7일)이 지난 후 재가입이 가능하며, 재가입하더라도 기존의 정보는 복구되지 않습니다."
+                android:textSize="@dimen/font_micro"/>
+
+            <Button
+                android:id="@+id/next"
+                style="@style/AppTheme.Widget.Button.Outline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_smaller"
+                android:layout_marginLeft="@dimen/spacing_smaller"
+                android:layout_marginRight="@dimen/spacing_smaller"
+                android:layout_marginStart="@dimen/spacing_smaller"
+                android:layout_marginTop="@dimen/spacing_huge"
+                android:text="@string/label.next"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

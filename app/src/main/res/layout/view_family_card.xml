@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/familyThumbnail"
+            android:layout_width="250dp"
+            android:layout_height="190dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_family_profile_default"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_huge"
+            android:textSize="@dimen/font_huge"
+            tools:text="줌마사랑예시가족"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_normal"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/leaderThumbnail"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@null"
+                android:textSize="@dimen/font_huge"
+                tools:text="줌마사랑예시가족"/>
+
+            <TextView
+                android:id="@+id/leaderNickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_smaller"
+                android:layout_marginStart="@dimen/spacing_smaller"
+                android:textColor="@color/gray_5"
+                tools:text="영희맘"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_huge"
+                android:layout_marginStart="@dimen/spacing_huge"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_menu_person"
+                android:textColor="@color/gray_5"/>
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_smaller"
+                android:layout_marginStart="@dimen/spacing_smaller"
+                android:textColor="@color/gray_5"
+                tools:text="3명"/>
+        </LinearLayout>
+
+        <com.zslide.widget.RequestButton
+            android:id="@+id/join"
+            style="@style/AppTheme.Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/spacing_normal"
+            android:background="@drawable/btn_accent"
+            android:text="@string/label.family.join"
+            android:textColor="#FFFEFE"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

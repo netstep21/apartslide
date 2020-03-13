@@ -1,0 +1,219 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slider="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/locker_background_top"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/locker_background_bottom"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="24dp"
+            android:paddingStart="24dp"
+            android:paddingTop="22dp">
+
+            <LinearLayout
+                android:id="@+id/dateTimeContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:textColor="#ffffff"
+                    android:textSize="42sp"/>
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/amPm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/dateTimeContainer"
+                android:layout_toRightOf="@id/dateTimeContainer"
+                android:includeFontPadding="false"
+                android:textColor="#ffffff"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/zmoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginTop="8dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:drawableTop="@drawable/ic_lock_won"
+                android:gravity="center"
+                android:text="줌머니"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+
+        <com.buzzvil.buzzscreen.sdk.widget.Slider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            slider:sl_left_icon="@drawable/img_locker_landing"
+            slider:sl_pointer="@drawable/img_pointer_default"
+            slider:sl_pointer_drag="@drawable/img_pointer_active"
+            slider:sl_radius="128dp"
+            slider:sl_right_icon="@drawable/img_locker_unlock"
+            slider:sl_text_size="14sp"/>
+
+        <ImageView
+            android:id="@+id/arrowTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="4dp"
+            android:src="@drawable/locker_arrow_top"/>
+
+        <ImageView
+            android:id="@+id/arrowBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="4dp"
+            android:src="@drawable/locker_arrow_bottom"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/tutorialMessageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/locker_tutorial_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|bottom">
+
+                <TextView
+                    android:id="@+id/tutorialBoldTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    tools:text="왼쪽"/>
+
+                <TextView
+                    android:id="@+id/tutorialTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    tools:text="으로 밀어보세요."/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tutorialDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:lineSpacingExtra="2dp"
+                android:textSize="15dp"
+                tools:text="더 많은 포인트를 받거나\n컨텐츠의 내용을 자세히 볼 수 있답니다."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/tutorialArrowUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:src="@drawable/img_tutorial_arrow_up"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/tutorialArrowDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_tutorial_arrow_down"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="33dp">
+
+            <ImageView
+                android:id="@+id/tutorialArrowLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_tutorial_arrow_rtl"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/tutorialArrowRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_tutorial_arrow_ltr"
+                android:visibility="invisible"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

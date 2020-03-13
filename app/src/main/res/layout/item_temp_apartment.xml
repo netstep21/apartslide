@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_normal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/familyRegistration"
+            android:layout_toStartOf="@+id/familyRegistration"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/name"
+            android:layout_marginTop="@dimen/spacing_micro"
+            android:layout_toLeftOf="@+id/familyRegistration"
+            android:layout_toStartOf="@+id/familyRegistration"
+            android:textSize="@dimen/font_micro"/>
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/address"
+            android:layout_marginTop="@dimen/spacing_micro"
+            android:layout_toLeftOf="@+id/familyRegistration"
+            android:layout_toStartOf="@+id/familyRegistration"
+            android:textColor="@color/gray_7"
+            android:textSize="10sp"/>
+
+        <Button
+            android:id="@+id/familyRegistration"
+            style="?borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/spacing_normal"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:background="@drawable/btn_subaccent_border"
+            android:foreground="?selectableItemBackground"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="@dimen/spacing_normal"
+            android:text="@string/label.registration.apply"
+            android:textColor="@color/subAccentColor"
+            android:textSize="@dimen/font_micro"/>
+
+    </RelativeLayout>
+
+    <View
+        style="@style/Divider"
+        android:layout_gravity="bottom"/>
+</FrameLayout>

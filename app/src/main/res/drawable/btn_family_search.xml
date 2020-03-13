@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_disabled_round" android:state_enabled="false"/>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:bottomRightRadius="2dp"
+                     android:topRightRadius="2dp"/>
+            <solid android:color="@color/subAccentColor_pressed"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomRightRadius="2dp"
+                     android:topRightRadius="2dp"/>
+            <solid android:color="@color/subAccentColor"/>
+        </shape>
+    </item>
+</selector>

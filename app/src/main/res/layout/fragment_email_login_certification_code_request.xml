@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_huge">
+
+    <TextView
+        style="@style/TextAppearance.Auth.Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_huge"
+        android:text="@string/message.certification.email.start"/>
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/AppTheme.Widget.EditText.Auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:hint="@string/label.email.address"
+        android:inputType="textEmailAddress"
+        tools:text="cwpark@mobitle.com"/>
+
+    <com.zslide.widget.RequestButton
+        android:id="@+id/requestCertificationCode"
+        style="@style/AppTheme.Widget.Button.Auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label.certification.request.code"
+        app:progressColor="@color/black"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="@dimen/spacing_normal">
+
+    <com.zslide.widget.UserProfileView
+        android:id="@+id/userProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <com.zslide.widget.RequestButton
+        android:id="@+id/unblock"
+        style="?borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gray_7_border"
+        android:minHeight="35dp"
+        android:text="@string/label.family.unblock"
+        android:textColor="@color/gray_5"
+        android:textSize="@dimen/font_micro"
+        app:progressColor="@color/gray_5"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing_micro"
+    android:paddingTop="@dimen/spacing_huge"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/level_icon_width"
+        android:layout_height="@dimen/level_icon_height"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/levelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:textColor="@color/subAccentColor"
+        android:textSize="18sp"
+        tools:text="줌마9단"/>
+
+    <TextView
+        android:id="@+id/levelPeriodMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/spacing_smaller"
+        android:textColor="@color/gray_6"/>
+</LinearLayout>

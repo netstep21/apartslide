@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_default"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="@dimen/level_icon_width"
+                    android:layout_height="@dimen/level_icon_height"
+                    android:contentDescription="@null"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/labelLevelName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_huge"
+                        android:layout_marginStart="@dimen/spacing_huge"
+                        android:drawableEnd="@drawable/ic_lv_q"
+                        android:drawablePadding="7dp"
+                        android:drawableRight="@drawable/ic_lv_q"
+                        android:text="@string/label.level.benefit.level"
+                        android:textColor="@color/gray_6"/>
+
+                    <TextView
+                        android:id="@+id/levelName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_huge"
+                        android:layout_marginStart="@dimen/spacing_huge"
+                        android:layout_marginTop="15dp"
+                        android:textColor="@color/subAccentColor"
+                        android:textSize="@dimen/font_huge"
+                        tools:text="살림왕"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/Divider"/>
+
+            <FrameLayout
+                android:id="@+id/keepingConditionContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="30dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/spacing_micro"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/smallIcon"
+                            android:layout_width="@dimen/level_small_icon_width"
+                            android:layout_height="@dimen/level_small_icon_height"
+                            android:scaleType="fitXY"/>
+
+                        <TextView
+                            android:id="@+id/keepingConditionLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/spacing_smaller"
+                            android:layout_marginStart="@dimen/spacing_smaller"
+                            android:textColor="@color/gray_7"
+                            tools:text="살림왕 등급을 유지하려면?"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/keepingConditionItemContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"/>
+                </LinearLayout>
+
+                <View
+                    style="@style/Divider"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="30dp"/>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/couponContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="18dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_large"
+                    android:layout_marginEnd="@dimen/spacing_large"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:layout_marginStart="@dimen/spacing_large"
+                    android:text="발급된 쿠폰"
+                    android:textColor="@color/gray_7"
+                    android:textSize="@dimen/font_micro"/>
+
+                <LinearLayout
+                    android:id="@+id/couponItemContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/spacing_large"
+                    android:orientation="vertical"/>
+
+                <Button
+                    android:id="@+id/launchZmoney"
+                    style="@style/AppTheme.Widget.Button.Outline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_large"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:layout_marginStart="@dimen/spacing_large"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:minHeight="50dp"
+                    android:text="@string/view_in_the_zmoney"/>
+
+                <View
+                    style="@style/Divider"
+                    android:layout_marginTop="36dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/logContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_large"
+                    android:layout_marginEnd="@dimen/spacing_large"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:layout_marginStart="@dimen/spacing_large">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="받은 등급 혜택"
+                        android:textColor="@color/gray_7"
+                        android:textSize="@dimen/font_micro"/>
+
+                    <TextView
+                        android:id="@+id/benefitAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_micro"
+                        tools:text="17,300원"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/benefitLogs"
+                    style="@style/AppTheme.Widget.Button.Outline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_large"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:layout_marginStart="@dimen/spacing_large"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:minHeight="50dp"
+                    android:text="@string/label.level.benefit.detail"/>
+
+                <View
+                    style="@style/Divider"
+                    android:layout_marginTop="36dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/levelBenefitAll"
+                style="@style/AppTheme.Widget.Button.Confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="@dimen/spacing_large"
+                android:layout_marginLeft="@dimen/spacing_large"
+                android:layout_marginRight="@dimen/spacing_large"
+                android:layout_marginStart="@dimen/spacing_large"
+                android:layout_marginTop="32dp"
+                android:minHeight="70dp"
+                android:text="@string/label.level.benefit.all"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

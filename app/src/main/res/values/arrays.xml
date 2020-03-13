@@ -1,0 +1,103 @@
+<resources>
+
+    <array name="setting_icons">
+        <item>@drawable/ic_house_brown</item>
+        <item>@drawable/ic_locksetting</item>
+        <item>@drawable/ic_alarm</item>
+        <item>@drawable/ic_zmoneyapp_l</item>
+        <item>@drawable/ic_notice_brown</item>
+        <item>@drawable/ic_question_brown</item>
+        <item>@drawable/ic_info</item>
+    </array>
+
+    <string-array name="setting_labels">
+        <item>@string/setting_label_home</item>
+        <item>@string/setting_label_use_locker</item>
+        <item>@string/setting_label_use_reward_notification</item>
+        <item>@string/setting_label_use_zmoney</item>
+        <item>@string/setting_label_notice</item>
+        <item>@string/setting_label_help</item>
+        <item>@string/setting_label_app_info</item>
+    </string-array>
+
+    <array name="level_icons">
+        <item>@drawable/img_lv_0</item>
+        <item>@drawable/img_lv_1</item>
+        <item>@drawable/img_lv_7</item>
+        <item>@drawable/img_lv_8</item>
+        <item>@drawable/img_lv_9</item>
+        <item>@drawable/img_lv_10</item>
+    </array>
+
+    <array name="zmoney_types">
+        <item>기타</item>
+        <item>OK캐쉬백</item>
+        <item>친구 초대</item>
+        <item>바로 적립</item>
+        <item>전화 적립</item>
+        <item>줌마가게</item>
+        <item>줌마쇼핑</item>
+        <item>잠금화면 광고</item>
+    </array>
+
+    <array name="stamp_card_category_colors">
+        <item>#E55959</item>
+        <item>#63A5F8</item>
+        <item>#73C244</item>
+        <item>#ED9025</item>
+        <item>#B362E1</item>
+    </array>
+
+    <string-array name="short_usage_types">
+        <item>@string/label.usage.short.visit</item>
+        <item>@string/label.usage.short.call</item>
+    </string-array>
+
+    <string-array name="usage_guides">
+        <item>@string/message.usage.visit</item>
+        <item>@string/message.usage.call</item>
+    </string-array>
+
+    <string-array name="usage_types">
+        <item>@string/label.usage.visit</item>
+        <item>@string/label.usage.call</item>
+    </string-array>
+
+    <string-array name="reward_types">
+        <item>@string/postfix_point</item>
+        <item>@string/postfix.percent</item>
+        <item>@string/postfix_point</item>
+        <item>@string/postfix.stampCard</item>
+    </string-array>
+
+    <string-array name="restart_intervals">
+        <item>2시간 동안 해제</item>
+        <item>4시간 동안 해제</item>
+        <item>8시간 동안 해제</item>
+        <item>하루 동안 해제</item>
+        <item>다시 켜기 전까지 해제</item>
+    </string-array>
+
+    <string-array name="analytics_event_label_item_categories">
+        <item>@string/analytics.event.label.category.participate</item>
+        <item>@string/analytisc.event.label.category.healthbeauty</item>
+        <item>@string/analytics.event.label.category.hospital</item>
+        <item>@string/analytics.event.label.category.edu_culture</item>
+        <item>@string/analytics.event.label.category.childcare_children</item>
+        <item>@string/analytics.event.label.category.mart_distribution</item>
+        <item>@string/analytics.event.label.category.cafe_restaurant</item>
+        <item>@string/analytics.event.label.category.realestate_finance</item>
+        <item>@string/analytics.event.label.category.delivery</item>
+        <item>@string/analytics.event.label.category.etc_life</item>
+        <item>@string/analytics.event.label.category.selfadv</item>
+        <item>@string/analytics.event.label.category.participate.health_beauty</item>
+        <item>@string/analytics.event.label.category.participate.childcare_children</item>
+        <item>@string/analytics.event.label.category.participate.cafe_restaurant</item>
+        <item>@string/analytics.event.label.category.participate.edu_culture</item>
+        <item>@string/analytics.event.label.category.participate.mart_distribution</item>
+        <item>@string/analytics.event.label.category.participate.etc_life</item>
+        <item>@string/analytics.event.label.category.participate.all</item>
+        <item>@string/analytics.event.label.category.freemarket</item>
+    </string-array>
+
+</resources>

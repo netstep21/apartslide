@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarTheme">@style/AppTheme.ActionBar</item>
+        <item name="colorPrimaryDark">@color/brown2</item>
+        <item name="colorAccent">@color/brown2</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:actionDropDownStyle">@style/DropDownListView</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">@transition/trans_move</item>
+        <item name="android:windowSharedElementExitTransition">@transition/trans_move</item>
+
+        <!-- specify enter and exit transitions -->
+        <!--<item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>-->
+
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme">
+    </style>
+
+    <style name="AppTheme.NoStatusBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+
+    <style name="AppTheme.FullScreen">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+
+    <style name="AppTheme.Barcode" parent="AppTheme.Transparent">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AppTheme.LockScreen" parent="AppTheme.FullScreen">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

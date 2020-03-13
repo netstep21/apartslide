@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_large">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_huge"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="초대 메세지"
+        android:textSize="@dimen/font_larger"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_huge"
+        android:lineSpacingExtra="@dimen/spacing_micro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/spacing_micro"
+        android:text="@string/message.invite.family.clipboard2"
+        android:textColor="@color/gray_7"/>
+</LinearLayout>

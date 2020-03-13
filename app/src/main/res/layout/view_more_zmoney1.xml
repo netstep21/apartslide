@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/moreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="줌머니 더 모으기"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/moreLabel"
+        android:layout_alignStart="@+id/moreLabel"
+        android:layout_below="@+id/moreLabel"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="12dp"
+        android:drawableEnd="@drawable/img_lock_arrow_greengray"
+        android:drawablePadding="12dp"
+        android:drawableRight="@drawable/img_lock_arrow_greengray"
+        android:text="친구초대"
+        android:textColor="#746A42"
+        android:textSize="22sp"/>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="98.5dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"/>
+</RelativeLayout>

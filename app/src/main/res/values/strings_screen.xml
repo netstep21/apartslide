@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen.user_settings">내 정보</string>
+    <string name="screen.ad">광고</string>
+    <string name="screen_apartment_complete">주소 완성</string>
+    <string name="screen.ad_help">@string/label.ad_help</string>
+    <string name="screen_zumma_store_detail">줌마가게 상세정보</string>
+    <string name="screen.zumma_store">줌마가게</string>
+    <string name="screen.cart">장바구니</string>
+    <string name="screen.certification">실명인증</string>
+    <string name="screen.event.kb">KB국민카드 자동이체 신청</string>
+    <string name="screen.event.shinhan">신한카드 자동이체 신청</string>
+    <string name="screen.deep_link">딥링크</string>
+    <string name="screen.delivery_store.detail">배달가게 상세정보</string>
+    <string name="screen.delivery_store">배달가게</string>
+    <string name="screen.market.detail">줌마쇼핑 상세정보</string>
+    <string name="screen.market">줌마쇼핑</string>
+    <string name="screen.likes">좋아요 목록</string>
+    <string name="screen.notification">알림</string>
+    <string name="screen.home">홈</string>
+    <string name="screen.invite">친구추천</string>
+    <string name="screen.order">주문정보입력</string>
+    <string name="screen.password.find">비밀번호 찾기</string>
+    <string name="screen.payments">구매내역</string>
+    <string name="screen.payment.detail">구매 상세정보</string>
+    <string name="screen.local_store.detail">첫 화면 광고 상세정보</string>
+    <string name="screen.local_store">첫화면 광고</string>s
+    <string name="screen.lockscreen">첫화면</string>
+    <string name="screen.login">로그인</string>
+    <string name="screen.main">메인</string>
+    <string name="screen.notices">@string/label.notice</string>
+    <string name="screen.at_event">신용카드 자동납부</string>
+    <string name="screen.event">이벤트</string>
+    <string name="screen.faq">자주 묻는 질문</string>
+    <string name="screen.family.modify_block">차단된 구성원 관리</string>
+    <string name="screen.family.setting">우리집 정보</string>
+    <string name="screen.family.update">우리집 등록</string>
+    <string name="screen.mypage">마이페이지</string>
+    <string name="screen.settings">@string/label_settings</string>
+    <string name="screen.signup">회원가입</string>
+    <string name="screen.splash">스플래시</string>
+    <string name="screen.temp_apartment">임시 아파트</string>
+    <string name="screen.temp_user">임시 회원</string>
+    <string name="screen.version_info">버전 정보</string>
+    <string name="screen.zmoney_detail">줌머니 내역</string>
+    <string name="screen.profile.update">@string/label.update.profile</string>
+    <string name="screen.profile.update.nickname">별명 수정</string>
+
+    <!-- v1 titles -->
+
+</resources>

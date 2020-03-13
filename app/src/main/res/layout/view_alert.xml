@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:background="@color/amber">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_normal">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_micro"
+                tools:text="우리집 등록하고\n관리비 차감받으세요"/>
+
+            <TextView
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_auth_button"
+                android:gravity="center"
+                android:minHeight="35dp"
+                android:minWidth="135dp"
+                android:textColor="@color/amber"
+                android:textSize="@dimen/font_micro"
+                tools:text="등록하기"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="@dimen/spacing_normal"
+            android:src="@drawable/ic_cancel_white"/>
+    </RelativeLayout>
+
+    <View style="@style/Shadow.TopDown"/>
+</LinearLayout>

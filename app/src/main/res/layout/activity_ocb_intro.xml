@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                tools:ignore="MissingPrefix">
+
+    <include layout="@layout/toolbar_default"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingTop="@dimen/spacing_normal">
+
+            <LinearLayout
+                android:id="@+id/ocbContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/img_ocb_title"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:background="@drawable/bg_ocb_point"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_large">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_micro"
+                        android:layout_marginRight="@dimen/spacing_micro"
+                        android:text="이번 달 사용 포인트:"/>
+
+                    <TextView
+                        android:id="@+id/usedPoint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label.price.none"
+                        tools:text="50,000P"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/use"
+                    style="@style/AppTheme.Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:text="OK캐쉬백 포인트 사용하기"/>
+
+                <com.zslide.widget.RequestButton
+                    android:id="@+id/cancel"
+                    style="@style/AppTheme.Widget.Button.Outline.Fill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="14dp"
+                    android:text="OK캐쉬백 포인트 사용하기 취소"
+                    app:progressColor="@color/subAccentColor"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ocbContainer"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/spacing_huge"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

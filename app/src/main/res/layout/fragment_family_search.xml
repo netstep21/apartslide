@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_smaller"
+        android:layout_marginLeft="@dimen/spacing_smaller"
+        android:layout_marginRight="@dimen/spacing_smaller"
+        android:layout_marginStart="@dimen/spacing_smaller"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:background="@drawable/bg_subaccent_border"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/keyword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/label.family.search.hint"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/spacing_normal"
+            android:paddingEnd="@dimen/spacing_large"
+            android:paddingLeft="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large"
+            android:paddingStart="@dimen/spacing_large"
+            android:paddingTop="@dimen/spacing_normal"
+            android:textSize="@dimen/font_micro"/>
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="0dp"
+            android:background="@drawable/btn_family_search"
+            android:enabled="false"
+            android:padding="0dp"
+            android:src="@drawable/ic_search_white"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="@dimen/spacing_large"
+        android:paddingLeft="@dimen/spacing_large"
+        android:paddingRight="@dimen/spacing_large"
+        android:paddingStart="@dimen/spacing_large">
+
+        <TextView
+            android:id="@+id/guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/spacing_micro"
+            android:text="@string/message.family.search"
+            android:textSize="@dimen/font_micro"/>
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/spacing_micro"
+            android:textSize="@dimen/font_micro"
+            android:visibility="gone"/>
+
+        <fr.castorflex.android.circularprogressbar.CircularProgressBar
+            android:id="@+id/progress"
+            style="@style/AppTheme.CircularProgressBar.Small"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/spacing_huge"
+            android:visibility="gone"/>
+
+        <com.zslide.widget.FamilyCardView
+            android:id="@+id/familyCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>

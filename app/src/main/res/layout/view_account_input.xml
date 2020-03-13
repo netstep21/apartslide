@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_marginBottom="@dimen/spacing_smaller"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:text="@string/label.bank.name"/>
+
+        <LinearLayout
+            android:background="@drawable/bg_gray_a_border"
+            android:paddingRight="@dimen/spacing_large">
+
+            <Spinner
+                android:id="@+id/banks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="@dimen/spacing_smaller"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_marginRight="@dimen/spacing_large"
+            android:text="@string/label.account.number"/>
+
+        <EditText
+            android:id="@+id/accountNumber"
+            android:background="@drawable/bg_gray_a_border"
+            android:hint="@string/message.only_number"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/spacing_normal"
+            android:singleLine="true"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center_vertical">
+
+        <TextView
+            android:text="@string/label.account.owner"/>
+
+        <EditText
+            android:id="@+id/accountOwner"
+            android:background="@drawable/bg_gray_a_border"
+            android:inputType="text"
+            android:padding="@dimen/spacing_normal"
+            android:singleLine="true"/>
+    </TableRow>
+</TableLayout>

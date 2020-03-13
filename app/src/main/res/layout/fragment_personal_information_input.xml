@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_huge">
+
+    <TextView
+        style="@style/TextAppearance.Auth.Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_huge"
+        android:text="@string/message.input.personal_information"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:baselineAligned="false"
+        android:paddingEnd="@dimen/spacing_large"
+        android:paddingLeft="@dimen/spacing_large"
+        android:paddingRight="@dimen/spacing_large"
+        android:paddingStart="@dimen/spacing_large">
+
+        <TextView
+            android:id="@+id/birthYear"
+            android:layout_width="134dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/spacing_normal"
+            android:layout_marginRight="@dimen/spacing_normal"
+            android:background="@drawable/bg_auth_edit"
+            android:gravity="center"
+            android:text="@string/label.birth.year"
+            android:textColor="@color/colors_auth_select_text">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="134dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_auth_edit"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/woman"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/womanCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/spacing_micro"
+                    android:layout_marginRight="@dimen/spacing_micro"
+                    android:layout_toLeftOf="@+id/womanLabel"
+                    android:layout_toStartOf="@+id/womanLabel"
+                    android:src="@drawable/ic_check_small"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/womanLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/label.sex.woman"
+                    android:textColor="@color/colors_auth_select_text"
+                    android:textSize="@dimen/font_micro"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="22dp"
+                android:background="@color/white_50"/>
+
+            <RelativeLayout
+                android:id="@+id/man"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/manCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/spacing_micro"
+                    android:layout_marginRight="@dimen/spacing_micro"
+                    android:layout_toLeftOf="@+id/manLabel"
+                    android:layout_toStartOf="@+id/manLabel"
+                    android:src="@drawable/ic_check_small"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/manLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/label.sex.man"
+                    android:textColor="@color/colors_auth_select_text"
+                    android:textSize="@dimen/font_micro"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        style="@style/AppTheme.Widget.Button.Auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/label.next"/>
+</LinearLayout>

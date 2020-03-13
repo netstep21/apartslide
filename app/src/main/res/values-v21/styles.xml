@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.AppTheme.Widget.Button" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textAppearance">@style/TextAppearance.Regular</item>
+    </style>
+
+    <style name="ApartSlideTheme.Button.Input" parent="Base.ApartSlideTheme.Button.Input">
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="TabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/white</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/subAccentColor</item>
+        <item name="android:elevation">@dimen/elevation</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:elevation">@dimen/elevation</item>
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+</resources>

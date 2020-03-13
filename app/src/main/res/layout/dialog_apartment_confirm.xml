@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/spacing_normal"
+        android:text="@string/label.check.address"/>
+
+    <View
+        style="@style/Divider"
+        android:background="@color/gray_b"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_smaller">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_smaller"
+            android:background="@color/gray_e"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_normal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_micro"
+                android:textSize="@dimen/font_micro"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="@string/message.confirm.apartment"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingBottom="@dimen/spacing_micro"
+        android:paddingEnd="@dimen/spacing_smaller"
+        android:paddingLeft="@dimen/spacing_smaller"
+        android:paddingRight="@dimen/spacing_smaller"
+        android:paddingStart="@dimen/spacing_smaller"
+        android:paddingTop="@dimen/spacing_micro">
+
+        <Button
+            android:id="@+id/cancel"
+            style="?borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:paddingBottom="@dimen/spacing_normal"
+            android:paddingEnd="@dimen/spacing_large"
+            android:paddingLeft="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large"
+            android:paddingStart="@dimen/spacing_large"
+            android:paddingTop="@dimen/spacing_normal"
+            android:text="@string/label.cancel"
+            android:textColor="@color/subAccentColor"/>
+
+        <Button
+            android:id="@+id/confirm"
+            style="?borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:paddingBottom="@dimen/spacing_normal"
+            android:paddingEnd="@dimen/spacing_large"
+            android:paddingLeft="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large"
+            android:paddingStart="@dimen/spacing_large"
+            android:paddingTop="@dimen/spacing_normal"
+            android:text="@string/label.confirm"
+            android:textColor="@color/subAccentColor"/>
+    </LinearLayout>
+</LinearLayout>

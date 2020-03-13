@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/spacing_normal"
+        android:paddingLeft="@dimen/spacing_normal"
+        android:paddingRight="@dimen/spacing_normal"
+        android:paddingStart="@dimen/spacing_normal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/message.input.dong.alert"
+            android:textSize="@dimen/font_micro"/>
+
+        <com.zslide.widget.AddressAutoCompleteTextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_normal"/>
+
+        <FrameLayout
+            android:id="@+id/detailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/houseHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_normal"
+            android:layout_marginLeft="@dimen/spacing_normal"
+            android:layout_marginStart="@dimen/spacing_normal"
+            android:drawableEnd="@drawable/ic_question"
+            android:drawablePadding="@dimen/spacing_smaller"
+            android:drawableRight="@drawable/ic_question"
+            android:text="@string/message.address_input.house_help"
+            android:textSize="@dimen/font_micro"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/inputModeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_normal"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/inputModeMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_normal"
+                android:layout_marginStart="@dimen/spacing_normal"
+                android:text="@string/message.input_mode.house"
+                android:textSize="@dimen/font_micro"/>
+
+            <RelativeLayout
+                android:id="@+id/inputMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_micro"
+                android:layout_marginStart="@dimen/spacing_micro"
+                android:background="?selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/inputModeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/label.input_mode.house"
+                    android:textSize="@dimen/font_micro"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignEnd="@+id/inputModeLabel"
+                    android:layout_alignLeft="@+id/inputModeLabel"
+                    android:layout_alignRight="@+id/inputModeLabel"
+                    android:layout_alignStart="@+id/inputModeLabel"
+                    android:layout_below="@+id/inputModeLabel"
+                    android:background="@color/black"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

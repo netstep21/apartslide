@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="accentColor_pressed">#dcaa16</color>
+    <color name="accentColor">#ebb617</color>
+    <color name="accentColor_transparent">#80ebb617</color>
+    <color name="primaryColor_pressed">#7a664a</color>
+    <color name="primaryColor">#806b4d</color>
+
+    <color name="saveGuideAccent">#e6b217</color>
+
+    <color name="subAccentColor">@color/deep_yellow</color>
+    <color name="subAccentColor_pressed">@color/deep_yellow_pressed</color>
+    <color name="errorColor">@color/pink</color>
+
+    <color name="hyperlink_pressed">#993399cc</color>
+    <color name="hyperlink">#3399cc</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_pressed">#0A000000</color>
+
+    <color name="divider">@color/black_20</color>
+
+    <color name="black_20">#33000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_35">#59000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_70">#B3000000</color>
+
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+
+    <color name="brown_50">#806d5522</color>
+    <color name="brown">#6d5522</color>
+
+    <color name="brown2_20">#33523000</color>
+    <color name="brown2_70">#B3523000</color>
+    <color name="brown2">#523000</color>
+
+    <color name="black">#333333</color>
+    <color name="gray_5">#555555</color>
+    <color name="gray_6">#666666</color>
+    <color name="gray_7">#777777</color>
+    <color name="gray_9">#999999</color>
+    <color name="gray_a">#aaaaaa</color>
+    <color name="gray_b">#bbbbbb</color>
+    <color name="gray_c">#cccccc</color>
+    <color name="gray_c_50">#80CCCCCC</color>
+    <color name="gray_d">#dddddd</color>
+    <color name="gray_e">#eeeeee</color>
+    <color name="gray_12">#1F000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray_f4">#f4f4f4</color>
+    <color name="amber">#F2BE42</color>
+    <color name="amber_light">#F7CA60</color>
+
+    <color name="yellow_dark">#e1b239</color>
+    <color name="yellow">#e6bd45</color>
+    <color name="deep_yellow">#f2ab30</color>
+    <color name="deep_yellow_pressed">#e8a42e</color>
+
+    <!-- Begin Basic colors -->
+    <color name="purple">#9900FF</color>
+    <color name="purple_light">#DC88DA</color>
+
+    <color name="deep_purple">#ED0088</color>
+
+    <color name="pink_dark2">#D75B5B</color>
+    <color name="pink_light">#FF8888</color>
+    <color name="pink">#FF5555</color>
+    <color name="nav_header_title">#FFe0e0</color>
+    <color name="nav_header_sub">#f3cfcf</color>
+
+    <color name="pink_grad1">#E06868</color>
+    <color name="pink_grad2">#d05b5b</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="green">#009688</color>
+
+    <color name="blue_dark">#2288aa</color>
+    <color name="blue">#0099cc</color>
+    <color name="blue_light">#3399cc</color>
+
+    <color name="at_event_color">#3399cc</color>
+    <color name="at_event_outline_btn_pressed">#f0f5f8</color>
+    <color name="at_event_btn_pressed">#2f8dbc</color>
+
+    <!-- End Basic colors -->
+
+    <color name="zummacast_tag">#FFB2B7</color>
+
+    <!-- Social Login colors -->
+    <color name="kakao_text">#3C1E1E</color>
+    <color name="naver_text">@color/white</color>
+
+
+    <color name="material_green_dark_deep">#117f74</color>
+    <color name="material_green_dark">#159588</color>
+    <color name="window_background">@color/gray_e</color>
+
+    <!-- BIGIN: Campaign item -->
+    <!-- END: Campaign item -->
+
+    <color name="bg_lockscreen">#a3b8bb</color>
+
+    <color name="notification_unread_background">#f2fcff</color>
+
+    <color name="review_comment_background">#f3f3f3</color>
+
+
+    <color name="coupon_title">#ffffff</color>
+    <color name="coupon_title_used">#f5f5f5</color>
+    <color name="coupon_content_levelup">@color/pink</color>
+    <color name="coupon_content_levelup_used">#f5b1b1</color>
+    <color name="coupon_content_event">#00b8d4</color>
+    <color name="coupon_content_event_used">#8fd8e4</color>
+    <color name="coupon_date">@color/gray_7</color>
+    <color name="coupon_date_used">#bebebe</color>
+
+    <color name="bg_showcase">#deffd200</color>
+
+    <color name="alert_auth">#6ccad9</color>
+    <color name="alert_family">#f29161</color>
+
+    <color name="link_email">#e55c5c</color>
+    <color name="link_kakao">#f1c33b</color>
+    <color name="link_naver">#37ce4c</color>
+
+    <color name="atlantis">#89C236</color>
+
+
+    <color name="coupon1">#6D72F0</color>
+    <color name="coupon2">#25C3D8</color>
+    <color name="coupon3">#E9C242</color>
+
+    <color name="zmoney_dashboard_accent">#E8BB44</color>
+    <color name="zmoney_dashboard_bg">#fffaf2</color>
+    <color name="zmoney_dashboard_priority1">#FFC830</color>
+    <color name="zmoney_dashboard_priority2">#FFD561</color>
+    <color name="zmoney_dashboard_priority3">#FFE191</color>
+    <color name="zmoney_dashboard_priority4">#FFEBB7</color>
+
+
+    <color name="locker_tutorial_background">#f2ffffff</color>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO: 나중에 다시 검토 -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="24dp"
+    android:minWidth="220dp"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_normal">
+
+    <RelativeLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="220dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginEnd="@dimen/spacing_small"
+            android:layout_marginRight="@dimen/spacing_small"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/icon"
+            android:layout_toRightOf="@id/icon"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/spacing_small"
+                    android:layout_marginRight="@dimen/spacing_small"
+                    android:text="@string/label.version.current"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/currentVersion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="v2.1.10"
+                    android:textColor="@color/gray_a"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/spacing_small"
+                    android:layout_marginRight="@dimen/spacing_small"
+                    android:text="@string/label.version.new"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/newVersion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="v2.1.1"
+                    android:textColor="@color/green"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/updateButton"
+        style="?selectableItemBackground"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contentContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_subaccent"
+        android:focusable="false"
+        android:textColor="@color/colors_white_text"
+        android:textSize="14sp"/>
+</RelativeLayout>

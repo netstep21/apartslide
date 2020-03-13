@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_default"/>
+
+    <ScrollView
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="#f4f4f4"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <RelativeLayout
+                android:id="@+id/thumbnailContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="26dp"
+                android:layout_marginTop="26dp">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="92dp"
+                    android:layout_height="92dp"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/description.image.thumbnail"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_my_account_thumbnail"/>
+
+                <ImageButton
+                    android:id="@+id/editThumbnail"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignBottom="@id/thumbnail"
+                    android:layout_alignEnd="@id/thumbnail"
+                    android:layout_alignRight="@id/thumbnail"
+                    android:background="@drawable/bg_my_account_thumbnail"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_camera"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/nicknameContainer"
+                    style="@style/Widget.AppTheme.Preference.Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label.nickname"
+                        android:textSize="@dimen/font_minimum"/>
+
+                    <TextView
+                        android:id="@+id/nickname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/message.input.nickname"
+                        android:textColorHint="@color/gray_a"
+                        android:textSize="@dimen/font_micro"/>
+                </LinearLayout>
+
+                <View style="@style/Divider"/>
+
+                <LinearLayout
+                    android:id="@+id/levelContainer"
+                    style="@style/Widget.AppTheme.Preference.Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_level"
+                        android:textSize="@dimen/font_minimum"/>
+
+                    <TextView
+                        android:id="@+id/level"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_micro"
+                        tools:text="신규회원"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/Divider"
+                  android:layout_marginBottom="@dimen/spacing_normal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextAppearance.AppTheme.Preference.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2.5dp"
+                    android:text="@string/label.privacy"/>
+
+                <View style="@style/Divider"/>
+
+                <LinearLayout
+                    android:id="@+id/nameContainer"
+                    style="@style/Widget.AppTheme.Preference.Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label.name"
+                        android:textSize="@dimen/font_minimum"/>
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/message.input.name"
+                        android:textColorHint="@color/gray_a"
+                        android:textSize="@dimen/font_micro"/>
+                </LinearLayout>
+
+                <View style="@style/Divider"/>
+
+                <LinearLayout
+                    android:id="@+id/birthYearContainer"
+                    style="@style/Widget.AppTheme.Preference.Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label.birth.year"
+                        android:textSize="@dimen/font_minimum"/>
+
+                    <TextView
+                        android:id="@+id/birthYear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_micro"
+                        tools:text="1990"/>
+                </LinearLayout>
+
+                <View style="@style/Divider"/>
+
+                <LinearLayout
+                    android:id="@+id/sexContainer"
+                    style="@style/Widget.AppTheme.Preference.Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label.sex"
+                        android:textSize="@dimen/font_minimum"/>
+
+                    <TextView
+                        android:id="@+id/sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_micro"
+                        tools:text="여"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/Divider"
+                  android:layout_marginBottom="@dimen/spacing_normal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextAppearance.AppTheme.Preference.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label.account"/>
+
+                <View style="@style/Divider"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/alertEmail"
+                        style="@style/Widget.AppTheme.Preference.Container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/alert_auth">
+
+                        <TextView
+                            android:id="@+id/alertMessage"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/spacing_huge"
+                            android:layout_marginRight="@dimen/spacing_huge"
+                            android:layout_weight="1"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_micro"/>
+
+                        <TextView
+                            android:id="@+id/linkAccount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_auth_button"
+                            android:paddingBottom="@dimen/spacing_normal"
+                            android:paddingEnd="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingStart="20dp"
+                            android:paddingTop="@dimen/spacing_normal"
+                            android:text="@string/label.alert.auth"
+                            android:textColor="@color/alert_auth"
+                            android:textSize="@dimen/font_micro"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/authMessage"
+                        style="@style/Widget.AppTheme.Preference.Container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_micro"
+                        android:visibility="gone"
+                        tools:text="@string/message.login.with"/>
+
+                </FrameLayout>
+
+                <View style="@style/Divider"/>
+
+                <TextView
+                    android:id="@+id/logout"
+                    style="@style/Widget.AppTheme.Preference.Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label.logout"
+                    android:textSize="@dimen/font_micro"/>
+
+                <View style="@style/Divider"/>
+
+                <LinearLayout
+                    android:id="@+id/leave"
+                    style="@style/Widget.AppTheme.Preference.Container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/label.leave"
+                        android:textSize="@dimen/font_micro"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_arrow_ltr"/>
+                </LinearLayout>
+
+                <View style="@style/Divider"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

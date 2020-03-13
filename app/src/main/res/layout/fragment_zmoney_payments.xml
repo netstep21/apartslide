@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/toolbar"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/paymentsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:text="지급 금액"
+                android:textColor="@color/gray_9"/>
+
+            <TextView
+                android:id="@+id/payments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:textSize="30sp"
+                tools:text="3,320원"/>
+
+            <TextView
+                android:id="@+id/alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="#e54c4c"
+                android:textSize="@dimen/font_micro"
+                android:visibility="gone"
+                tools:text="계좌 정보가 없습니다."/>
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/gray_9"
+                android:textSize="@dimen/font_micro"
+                tools:text="모두 이월됐습니다.\n아래 사유를 확인해주세요."/>
+        </LinearLayout>
+
+        <View style="@style/Divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/spacing_huge"
+            android:paddingEnd="18dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingStart="18dp"
+            android:paddingTop="@dimen/spacing_huge">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이월 금액"
+                android:textColor="@color/gray_9"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_smaller"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/carryingCash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/font_larger"
+                    tools:text="4,000원"/>
+
+                <TextView
+                    android:id="@+id/carryingCashGuide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="이월금액이란?"
+                    android:textColor="@color/hyperlink"
+                    android:textSize="@dimen/font_micro"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carryingReasonContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_account_alert"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="이월 사유"
+                    android:textSize="@dimen/font_micro"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/carryingReason"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="@dimen/spacing_micro"
+                    android:background="@drawable/bg_account_alert"
+                    android:textSize="@dimen/font_micro"
+                    tools:text="계좌정보가 부정확하여.."/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/accountInfoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View style="@style/Divider"/>
+
+            <com.zslide.widget.AccountInfoView
+                android:id="@+id/accountInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

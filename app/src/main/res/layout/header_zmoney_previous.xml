@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/currentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:layout_marginTop="44dp"
+        android:textColor="@color/gray_9"
+        tools:text="2017년 1월"/>
+
+    <TextView
+        android:id="@+id/currentZmoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:textSize="30sp"
+        tools:text="3,320원"/>
+
+    <com.github.mikephil.charting.charts.CombinedChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <View
+        style="@style/Divider"
+        android:layout_marginBottom="@dimen/spacing_smaller"
+        android:layout_marginTop="@dimen/spacing_smaller"/>
+
+    <!--<include layout="@layout/item_zmoney_history"/>-->
+</LinearLayout>

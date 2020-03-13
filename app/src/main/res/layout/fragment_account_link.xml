@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_huge">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/message.link.email"
+        android:textSize="@dimen/font_micro"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:background="@drawable/bg_account_link_edit"
+        android:hint="@string/label.email.address"
+        android:inputType="textEmailAddress"
+        android:minHeight="50dp"
+        android:paddingEnd="@dimen/spacing_normal"
+        android:paddingLeft="@dimen/spacing_normal"
+        android:paddingRight="@dimen/spacing_normal"
+        android:paddingStart="@dimen/spacing_normal"
+        android:textSize="@dimen/font_micro"/>
+
+    <com.zslide.widget.RequestButton
+        android:id="@+id/emailCertification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:hint="@string/label.certification"
+        android:inputType="textEmailAddress"
+        android:minHeight="50dp"
+        android:text="@string/label.certification"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_micro"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_huge"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="0.5dp"
+            android:background="@color/black_50"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="또는"
+            android:textColor="@color/black_50"
+            android:textSize="@dimen/font_micro"/>
+        <View
+            android:layout_width="130dp"
+            android:layout_height="0.5dp"
+            android:background="@color/black_50"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_huge"
+        android:text="@string/label.link.account"
+        android:textSize="@dimen/font_micro"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/kakao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:drawablePadding="@dimen/spacing_normal"
+            android:drawableTop="@drawable/btn_login_ktalk"
+            android:gravity="center"
+            android:text="@string/label.kakao"
+            android:textSize="@dimen/font_micro"/>
+
+        <TextView
+            android:id="@+id/naver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+            android:drawablePadding="@dimen/spacing_normal"
+            android:drawableTop="@drawable/btn_login_naver"
+            android:gravity="center"
+            android:text="@string/label.naver"
+            android:textSize="@dimen/font_micro"/>
+    </LinearLayout>
+</LinearLayout>

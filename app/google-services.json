@@ -1,0 +1,110 @@
+{
+  "project_info": {
+    "project_number": "800067045577",
+    "firebase_url": "https://zslide-968.firebaseio.com",
+    "project_id": "zslide-968",
+    "storage_bucket": "zslide-968.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800067045577:android:26a3baf42147331f",
+        "android_client_info": {
+          "package_name": "com.apartslide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800067045577-jirpja12g1bh5tv35q0eo39fcsjeff8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apartslide",
+            "certificate_hash": "71f79ba37174a0bf475713aba6fd8ae1adafa4c4"
+          }
+        },
+        {
+          "client_id": "800067045577-gtvkj7ekv4h6gnk5ufr05f7sh0o0h42g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apartslide",
+            "certificate_hash": "1ca8ad8b06f8f620b23cf7b183b9129250898719"
+          }
+        },
+        {
+          "client_id": "800067045577-m9t7ct24o8aejbtodqci2vsv3q7c63ih.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "800067045577-ond87migpf0ont4jrk1n62utemh97alv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30c5iNGj72lw9d5mXf3jSkyiCJzqUqX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800067045577:android:0b8cb5eb5b37b93e",
+        "android_client_info": {
+          "package_name": "com.mobitle.zmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800067045577-897h0030gpri9f3c4o6hofbg5vtg5a3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobitle.zmoney",
+            "certificate_hash": "3bace5bedd82ce03a74ed0f6f9c1b7fdda778ceb"
+          }
+        },
+        {
+          "client_id": "800067045577-m9t7ct24o8aejbtodqci2vsv3q7c63ih.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "800067045577-ond87migpf0ont4jrk1n62utemh97alv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30c5iNGj72lw9d5mXf3jSkyiCJzqUqX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800067045577-m9t7ct24o8aejbtodqci2vsv3q7c63ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin Item Category -->
+    <string name="analytics.event.label.category.participate">알뜰장터</string>
+    <string name="analytisc.event.label.category.healthbeauty">헬스/뷰티</string>
+    <string name="analytics.event.label.category.hospital">병원</string>
+    <string name="analytics.event.label.category.edu_culture">학원/문화</string>
+    <string name="analytics.event.label.category.childcare_children">육아/아동</string>
+    <string name="analytics.event.label.category.mart_distribution">마트/유통</string>
+    <string name="analytics.event.label.category.cafe_restaurant">카페/맛집</string>
+    <string name="analytics.event.label.category.realestate_finance">부동산/금융</string>
+    <string name="analytics.event.label.category.delivery">배달</string>
+    <string name="analytics.event.label.category.etc_life">기타/생활</string>
+    <string name="analytics.event.label.category.selfadv">자체광고</string>
+    <string name="analytics.event.label.category.participate.health_beauty">헬스/뷰티</string>
+    <string name="analytics.event.label.category.participate.childcare_children">육아/아동</string>
+    <string name="analytics.event.label.category.participate.cafe_restaurant">카페/맛집</string>
+    <string name="analytics.event.label.category.participate.edu_culture">학원/문화</string>
+    <string name="analytics.event.label.category.participate.mart_distribution">마트/유통</string>
+    <string name="analytics.event.label.category.participate.etc_life">기타/생활</string>
+    <string name="analytics.event.label.category.participate.all">전체</string>
+    <string name="analytics.event.label.category.freemarket">프리마켓</string>
+    <!-- End Item Category -->
+    
+    <!-- Begin Event Category -->
+    <string name="analytics.event.category.slide">슬라이드</string>
+    <string name="analytics.event.category.settings">설정</string>
+    <!-- End Event Category -->
+    
+    <!-- Begin Event Action -->
+    <string name="analytics.event.action.slide_enable">첫화면 슬라이드 보기</string>
+    <string name="analytics.event.action.left">@string/action.left</string>
+    <string name="analytics.event.action.right">@string/action.right</string>
+    <!-- End Event Action -->
+    
+    <!-- Begin Event Label -->
+    <string name="analytics.event.label.enable">@string/action.enable</string>
+    <string name="analytics.event.label.disable">@string/action.disable</string>
+    <string name="analytics.event.label.usersex.m">@string/label.sex.man</string>
+    <string name="analytics.event.label.usersex.w">@string/label.sex.woman</string>
+    <string name="analytics.event.label.participate.already">@string/action.participate.already</string>
+    <string name="analytics.event.label.participate">@string/action.participate</string>
+    <!-- End Event Label -->
+</resources>

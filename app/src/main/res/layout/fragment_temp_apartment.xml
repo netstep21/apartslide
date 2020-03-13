@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_huge">
+
+            <TextView
+                android:id="@+id/apartmentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_large"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_smaller"
+                android:textColor="@color/gray_7"
+                android:textSize="@dimen/font_micro"/>
+
+            <TextView
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/spacing_smaller"/>
+
+            <Button
+                android:id="@+id/button"
+                style="?borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:background="@drawable/btn_subaccent_border"
+                android:gravity="center"
+                android:paddingEnd="@dimen/spacing_larger"
+                android:paddingLeft="@dimen/spacing_larger"
+                android:paddingRight="@dimen/spacing_larger"
+                android:paddingStart="@dimen/spacing_larger"
+                android:textColor="@color/subAccentColor"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View style="@style/Divider"/>
+
+    <RelativeLayout
+        android:id="@+id/alertContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_normal">
+
+        <ImageView
+            android:id="@+id/zumma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:contentDescription="@null"
+            android:src="@drawable/img_zumma_small"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/spacing_micro"
+            android:layout_marginStart="@dimen/spacing_micro"
+            android:layout_toEndOf="@id/zumma"
+            android:layout_toRightOf="@id/zumma"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_bullet_check_gray"/>
+
+            <TextView
+                android:id="@+id/alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_micro"
+                android:layout_marginStart="@dimen/spacing_micro"
+                android:layout_toEndOf="@id/bullet"
+                android:layout_toRightOf="@id/bullet"
+                android:lineSpacingExtra="@dimen/spacing_micro"
+                android:textSize="@dimen/font_fixed_micro"
+                tools:ignore="SpUsage"/>
+
+            <TextView
+                android:id="@+id/registrationRetry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/alert"
+                android:layout_marginTop="@dimen/spacing_smaller"
+                android:drawableLeft="@drawable/ic_bullet_check_gray"
+                android:drawablePadding="@dimen/spacing_micro"
+                android:drawableStart="@drawable/ic_bullet_check_gray"
+                android:textColorLink="@color/black"
+                android:textSize="@dimen/font_fixed_micro"
+                android:textStyle="bold"
+                tools:ignore="SpUsage"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

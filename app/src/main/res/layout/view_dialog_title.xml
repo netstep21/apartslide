@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="18dp"
+    android:paddingEnd="18dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingStart="18dp"
+    android:paddingTop="24dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_huge"
+        android:textStyle="bold"
+        tools:text="제목"/>
+</FrameLayout>

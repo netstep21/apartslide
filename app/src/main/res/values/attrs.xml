@@ -1,0 +1,135 @@
+<resources>
+
+    <attr name="subTitle" format="string"/>
+
+    <attr name="authType" format="enum">
+        <enum name="email" value="0"/>
+        <enum name="phone" value="1"/>
+        <enum name="kakao" value="2"/>
+        <enum name="naver" value="3"/>
+    </attr>
+
+    <declare-styleable name="BaseTheme">
+        <attr name="textHeaderMaxLines" format="integer"/>
+        <attr name="trackAbstractMaxLines" format="integer"/>
+        <attr name="activatableItemBackground" format="reference"/>
+
+        <!-- backward-compatibility -->
+        <!--
+        <attr name="buttonBarStyle" format="reference" />
+        <attr name="buttonBarButtonStyle" format="reference" />
+        -->
+        <!-- provided by ActionBarSherlock -->
+        <!-- <attr name="indeterminateProgressStyle" format="reference" /> -->
+        <!-- <attr name="listPreferredItemPaddingLeft" format="reference" /> -->
+        <!-- <attr name="listPreferredItemPaddingRight" format="reference" /> -->
+        <!-- <attr name="listPreferredItemHeightSmall" format="reference" /> -->
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" format="boolean"/>
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color"/>
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color"/>
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. -->
+        <attr name="radius" format="dimension"/>
+        <!-- Spacing between two circles. -->
+        <attr name="spacing" format="dimension"/>
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean"/>
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color"/>
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" format="dimension"/>
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="EmptyView">
+        <attr name="image" format="reference"/>
+        <attr name="title"/>
+        <attr name="message" format="string"/>
+        <attr name="buttonLabel" format="string"/>
+        <attr name="layout"/>
+    </declare-styleable>
+
+    <declare-styleable name="MainTabHeaderView">
+        <attr name="title"/>
+        <attr name="message"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppSettingItemView">
+        <attr name="android:title"/>
+        <attr name="subTitle"/>
+        <attr name="info" format="string"/>
+        <attr name="isNew" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppSettingItemSwitchView">
+        <attr name="android:title"/>
+    </declare-styleable>
+
+    <declare-styleable name="AccountSettingItemView">
+        <attr name="android:title"/>
+        <attr name="subTitle"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressButton">
+        <attr name="android:background"/>
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:enabled"/>
+        <attr name="overlap" format="boolean"/>
+        <attr name="progressPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
+            <enum name="center" value="13"/>
+        </attr>
+        <attr name="fontPath"/>
+        <attr name="progressSize" format="dimension"/>
+        <attr name="progressWidth" format="dimension"/>
+        <attr name="progressColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularSeekBar">
+        <attr name="progress" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="move_outside_circle" format="boolean"/>
+        <attr name="maintain_equal_circle" format="boolean"/>
+        <attr name="use_custom_radii" format="boolean"/>
+        <attr name="lock_enabled" format="boolean"/>
+        <attr name="circle_x_radius" format="dimension"/>
+        <attr name="circle_y_radius" format="dimension"/>
+        <attr name="circle_stroke_width" format="dimension"/>
+        <attr name="pointer_radius" format="dimension"/>
+        <attr name="pointer_halo_width" format="dimension"/>
+        <attr name="pointer_halo_border_width" format="dimension"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="circle_progress_color" format="color"/>
+        <attr name="pointer_color" format="color"/>
+        <attr name="pointer_halo_color" format="color"/>
+        <attr name="pointer_halo_color_ontouch" format="color"/>
+        <attr name="pointer_alpha_ontouch" format="integer"/>
+        <attr name="start_angle" format="float"/>
+        <attr name="end_angle" format="float"/>
+        <attr name="circle_fill" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="AuthButton">
+        <attr name="android:text"/>
+        <attr name="android:src"/>
+        <attr name="authType"/>
+    </declare-styleable>
+
+</resources>

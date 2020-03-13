@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adDetailImages"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="?selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View style="@style/Divider"/>
+
+        <FrameLayout
+            android:id="@+id/thumbnail_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/market_item_thumbnail_height">
+
+            <ImageView
+                android:id="@+id/thumbnailBackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:alpha="0.9"
+                android:contentDescription="@string/description.image.thumbnail"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:contentDescription="@string/description.image.thumbnail"
+                android:scaleType="fitCenter"/>
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@drawable/bg_box"/>-->
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/itemInfoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thumbnail_container"
+            android:background="@color/white"
+            android:padding="@dimen/spacing_smaller">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="@dimen/spacing_smaller"
+                android:layout_marginRight="@dimen/spacing_smaller"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_normal"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_huge"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/originPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/price"
+                android:layout_marginLeft="@dimen/spacing_small"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:layout_toEndOf="@id/price"
+                android:layout_toRightOf="@id/price"
+                android:textColor="@color/gray_a"
+                android:textSize="@dimen/font_micro"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="0dp"
+            android:paddingLeft="@dimen/spacing_micro"
+            android:paddingRight="0dp"
+            android:paddingStart="@dimen/spacing_micro"
+            android:paddingTop="@dimen/spacing_micro">
+
+            <TextView
+                android:id="@+id/tag1"
+                style="@style/Tag.MarketItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_yellow_bg"
+                android:text="@string/label.market.tag1"/>
+
+            <TextView
+                android:id="@+id/tag2"
+                style="@style/Tag.MarketItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_micro"
+                android:background="@drawable/tag_blue_bg"
+                android:text="@string/label.market.tag2"/>
+
+            <TextView
+                android:id="@+id/tag3"
+                style="@style/Tag.MarketItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_micro"
+                android:background="@drawable/tag_green_bg"
+                android:text="@string/label.market.tag3"/>
+
+            <TextView
+                android:id="@+id/tag4"
+                style="@style/Tag.MarketItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_micro"
+                android:background="@drawable/tag_red_bg"
+                android:text="@string/label.market.tag4"/>
+
+            <TextView
+                android:id="@+id/tagCustom"
+                style="@style/Tag.MarketItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_micro"
+                android:background="@drawable/tag_purple_bg"/>
+        </LinearLayout>
+
+        <include
+            layout="@layout/view_deduction_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/spacing_smaller"
+            android:layout_marginRight="@dimen/spacing_smaller"
+            android:layout_marginTop="@dimen/market_item_deduction_margin_top"/>
+
+        <View
+            style="@style/Shadow.TopDown"
+            android:layout_below="@id/itemInfoContainer"
+            android:layout_gravity="bottom"/>
+    </RelativeLayout>
+</FrameLayout>

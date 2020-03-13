@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionModifyFamilyPresident"
+        android:title="@string/label.family.change_family_leader"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/actionThrowMember"
+        android:title="@string/label.family.block"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/actionModifyBlockedMember"
+        android:title="@string/label.family.modify_block"
+        app:showAsAction="collapseActionView"/>
+</menu>

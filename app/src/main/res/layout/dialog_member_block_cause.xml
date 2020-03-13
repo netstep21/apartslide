@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_huge">
+
+    <TextView
+        android:id="@+id/alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:columnCount="2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cause1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/cause1Text"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/message.throw_member.cause1"/>
+
+        <RadioButton
+            android:id="@+id/cause2"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/cause2Text"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/message.throw_member.cause2"/>
+
+        <RadioButton
+            android:id="@+id/cause3"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/cause3Text"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:hint="@string/label.etc"/>
+    </GridLayout>
+</LinearLayout>
